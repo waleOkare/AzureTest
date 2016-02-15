@@ -5,9 +5,13 @@
     <title> FORM - GYM REGISTRATION </title>
 </head>
 <body>
-<h1> GYM REGISTRATION FORM </h1>
+<marquee><h1> GYM REGISTRATION FORM </h1> </marquee>
 
-<H6> Register Now! </H6>
+<marquee>  <H6> REGISTER NOW!!!! </H6> </marquee>
+
+<form>
+<fieldset>
+
 
 <legend> Register Now! </legend>
 <label for="Surname"> Surname:</label>
@@ -15,6 +19,14 @@
 <br>
 <label for="Firstname"> FirstName:</label>
 <input type="text" name="Firstname" value="" /><br>
+<br>
+<input type="radio" name="sex" value="male">
+Male
+<br>
+<input type="radio" name="sex" value="female">
+Female
+<br>
+
 
 <h3> Contact Details: </h3>
 <label for="Email:"> Email:</label>
@@ -60,9 +72,24 @@ Credit/Debit
 <br>
 <input type="checkbox" name="PublicUser" value="PublicUser">
 Public User
+<br>
+   <h5> Signature </h5>
+<textarea name="Signature" cols="15" rows="5">
+</textarea>
+    <br>
+
+<input type="submit" value="Submit" />
+<br>
+<br>
+<br>
 
 
 
+
+
+
+</fieldset>
+</form>
 
 </body>
 </html>
