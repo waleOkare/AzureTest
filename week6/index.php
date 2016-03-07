@@ -20,11 +20,12 @@
     $name = "wale";
 
     if($name == "wale"){
-        print "I know you!";
+        print "I know you! <br>";
     }
     else {
         print "Who are you <br>";
     }
+
 
     $age = 16;
     if($age >= 16) {
