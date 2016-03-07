@@ -27,14 +27,14 @@
     }
 
 
-    $age = 16;
+    $age = 23;
     if($age >= 16) {
         print "specs";
     }
-    else if ($age>18) {
+    else if ($age>=18) {
         print "mugs";
     }
-        else if($age > 21)
+        else if($age >= 21)
         {
           print "sausage rolls ";
 
