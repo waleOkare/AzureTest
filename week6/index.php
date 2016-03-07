@@ -27,7 +27,7 @@
     }
 
 
-    $age = 18;
+    $age = 9;
     if($age >= 21) {
         print "specs";
     }
