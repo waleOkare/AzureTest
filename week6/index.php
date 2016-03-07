@@ -5,9 +5,9 @@
 <body>
 <p>
     <?php
-    echo "Hello Worrld! <br>";
+  //  echo "Hello Worrld! <br>";
 
-    echo"Hello," . " " . "world" . "!";
+    echo"Hello," . " " . "world" . "! <br>";
     echo 5 * 7;
     ?>
 </p>
