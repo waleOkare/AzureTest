@@ -31,10 +31,10 @@
     if($age >= 16) {
         print "specs";
     }
-    elseif ($age>=18) {
+    elseif($age>=18) {
         print "mugs";
     }
-        elseif ($age >= 21)
+        elseif($age >= 21)
         {
           print "sausage rolls ";
     }
