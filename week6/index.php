@@ -34,11 +34,12 @@
     else if ($age>=18) {
         print "mugs";
     }
-        else if($age >= 21)
+        else if ($age >= 21)
         {
           print "sausage rolls ";
-
     }
+    else
+    print " you are not of age";
 
 
     ?>
