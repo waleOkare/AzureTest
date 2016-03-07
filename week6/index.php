@@ -23,8 +23,22 @@
         print "I know you!";
     }
     else {
-        print "Who are you";
+        print "Who are you <br>";
     }
+
+    $age = 16;
+    if($age > 16) {
+        print "specs";
+    }
+    else if ($age>18) {
+        print "mugs";
+    }
+        else if($age > 21)
+        {
+          print "sausage rolls ";
+
+    }
+
 
     ?>
 </p>
