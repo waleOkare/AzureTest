@@ -38,7 +38,7 @@
           print "sausage rolls ";
     }
     else
-          print " you are not of age";
+          print " you are not of age <br>";
 
  $numberofCars = 3;
 
@@ -54,7 +54,6 @@
             break;
         default:
             echo " does not have a car";
-
 
     }
 
