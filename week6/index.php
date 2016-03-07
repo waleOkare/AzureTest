@@ -9,6 +9,10 @@
 
     echo"Hello," . " " . "world" . "! <br>";
     echo 5 * 7;
+
+    $myname = "Wale Patrick";
+    $myage = 30;
+    echo "My name is" . $myname . "and I am " . $myage;
     ?>
 </p>
 </body>
