@@ -18,7 +18,6 @@
   //  echo "My name is " . " "  . $myname . "  " . "and I am " . $myage . " Years old ";
 
     $name = "wale";
-
     if($name == "wale"){
         print "I know you! <br>";
     }
@@ -26,7 +25,7 @@
         print "Who are you <br>";
     }
 
-
+// if and else Statements....
     $age = 9;
     if($age >= 21) {
         print "specs";
@@ -40,6 +39,26 @@
     }
     else
           print " you are not of age";
+
+ $numberofCars = 3;
+
+    switch($numberofCars=3){
+        case 1:
+            echo "has 1 car";
+            break;
+        case 2:
+            echo "has 2 cars";
+            break;
+        case 3:
+            echo "has 3 cars";
+            break;
+        default:
+            echo " does not have a car";
+
+
+    }
+
+
 
 
     ?>
