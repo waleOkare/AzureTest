@@ -7,7 +7,10 @@ h3 h1{
 
     text-align: center;
 }
-h3 h1{
+h3 {
+    color: cadetblue;
+}
+h1{
     color: cadetblue;
 }
 
@@ -23,6 +26,6 @@ input{
     border-radius: 4px;
 }
 input[type=text] {
-    color: whitesmoke;
+    color: mediumpurple;
 }
 
