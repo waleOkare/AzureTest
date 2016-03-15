@@ -12,6 +12,7 @@ h3{
     text-align: center;
 }
 form{
-
+    border: 1px solid;
+    border-radius: 4px;
     text-align: center;
 }
