@@ -25,7 +25,5 @@ input{
     border: 2px solid purple;
     border-radius: 4px;
 }
-input[type=text] {
-    color: mediumpurple;
-}
+
 
