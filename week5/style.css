@@ -3,11 +3,16 @@ body{
 }
 
 
-
 h3 h1{
-    color: #782A7E;
+
     text-align: center;
 }
+h3 h1{
+    color: cadetblue;
+}
+
+
+
 form{
 
     text-align: center;
@@ -18,6 +23,6 @@ input{
     border-radius: 4px;
 }
 input[type=text] {
-    color: mintcream;
+    color: whitesmoke;
 }
 
