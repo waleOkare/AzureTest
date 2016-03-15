@@ -20,8 +20,11 @@ form{
 }
 
 input{
-    border: 2px solid purple;
+    border: 2px solid cadetblue;
     border-radius: 4px;
 }
 
+label{
+    color: cadetblue;
+}
 
