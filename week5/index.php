@@ -1,4 +1,4 @@
-<?php
+
 <!doctype html>
 <html>
 <head>
@@ -14,7 +14,7 @@
 <div class="loginBox">
 <h3>Login Form</h3>
 <br><br>
-<form method="post" action="login.php">
+<form method="post" action="login.php"> // it calls login.php
 <label>Username:</label><br>
 <input type="text" name="username" placeholder="username"/>
 <br>
@@ -34,4 +34,3 @@
 </html>
 
 
-?>
