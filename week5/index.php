@@ -15,12 +15,13 @@
 <h3>Login Form</h3>
 <br><br>
 <form method="post" action="login.php">         <!--it calls login.php -->
-<label>Username:</label><br>
+<label>Username:</label>
+
 <input type="text" name="username" placeholder="username"/>
-<br>
-<br>
+
+
 <label> Password: </label>
-<br>
+
 <input type="password" name="password" placeholder="password" />
 <br>
 <br>
