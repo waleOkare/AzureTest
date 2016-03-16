@@ -57,10 +57,7 @@
 
     }
 
-    $items = array("specs", "mugs", "Sausage rolls");
-    $todaysGood = rand($items[]);
 
-    echo $todaysGood;
 
 
 
