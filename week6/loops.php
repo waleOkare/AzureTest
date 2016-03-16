@@ -10,7 +10,7 @@ $items = array("specs", "mugs", "Sausage rolls");
 
   //  echo "ont the " . $i . "of the month no products are available ";
 for($j = 1; $j <=30; $j+=2){
-    echo " On the " . $j . "of the month" .$items[0] . "are available ";
+    echo " On the " . $j . "of the month" .$items[0] . "are available <br> ";
 
 }
 ?>
