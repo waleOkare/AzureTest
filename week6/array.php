@@ -7,9 +7,9 @@ sort($list);
 
 
 // print rand();
-$namelist = rand($list);
+// $namelist = rand($list);
 
-echo $list;
+echo rand ($list);
 
 
 
