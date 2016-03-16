@@ -46,5 +46,6 @@ while(($spec_stock > 0) && ($mug_stock > 0) && ($sausageroll_stock > 0)) {
 }
 echo "No more goods are available this month";
 
+
 //This code should work. I haven't tested it but it looks right. Mike.
 ?>
