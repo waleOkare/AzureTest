@@ -10,7 +10,7 @@
 <?php
 include("connection.php");
 
-echo "Current user Login as : " . $username;
+echo  "SELECT '$username' from users";
 
 $sql = " SELECT * from users";
 echo $sql;
