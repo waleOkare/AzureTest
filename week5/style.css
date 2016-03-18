@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color: midnightblue;
 }
 
 
@@ -8,10 +8,10 @@ h3, h1{
     text-align: center;
 }
 h3 {
-    color: cadetblue;
+    color: mintcream;
 }
 h1{
-    color: cadetblue;
+    color: mintcream;
 }
 
 form{
@@ -20,11 +20,11 @@ form{
 }
 
 input{
-    border: 2px solid cadetblue;
+    border: 2px solid mintcream;
     border-radius: 4px;
 }
 
 label{
-    color: cadetblue;
+    color: mintcream;
 }
 
