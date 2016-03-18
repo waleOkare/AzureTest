@@ -8,8 +8,9 @@
 
 <body>
 <?php
+include("connection.php");
 
-echo "Current user Login as : ";
+echo "Current user Login as : " . $username;
 ?>
 
 <h1>Hello</h1>
