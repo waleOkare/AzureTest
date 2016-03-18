@@ -7,8 +7,14 @@
 </head>
 
 <body>
+<?php
+
+echo "Current user Login as : "
+?>
 
 <h1>Hello</h1>
+
+
 
 </body>
 
