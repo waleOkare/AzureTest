@@ -11,6 +11,9 @@
 include("connection.php");
 
 echo "Current user Login as : " . $username;
+
+$sql = " SELECT * from users";
+echo $sql;
 ?>
 
 <h1>Hello</h1>

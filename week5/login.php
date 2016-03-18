@@ -1,6 +1,6 @@
 <?php
 include("connection.php"); // Note that this establishes connection with our database.
-
+include ("home.php");
 
 if(empty($_POST["username"])|| empty($_POST["password"])){
     echo "Both fields are required. ";
