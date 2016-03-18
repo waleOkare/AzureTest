@@ -10,10 +10,9 @@
 <?php
 include("connection.php");
 
-echo  "SELECT '$username' from users";
+echo  $username;
 
-$sql = " SELECT * from users";
-echo $sql;
+
 ?>
 
 <h1>Hello</h1>
