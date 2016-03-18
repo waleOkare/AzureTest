@@ -9,7 +9,7 @@
 <body>
 <?php
 
-echo "Current user Login as : "
+echo "Current user Login as : ";
 ?>
 
 <h1>Hello</h1>
