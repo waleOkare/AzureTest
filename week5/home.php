@@ -7,12 +7,13 @@
 </head>
 
 <body>
+
 <?php
-include("connection.php");
 
-echo  $username;
+$name = $_REQUEST['username'];
+echo $name;
 
-
+?>
 ?>
 
 <h1>Hello</h1>
