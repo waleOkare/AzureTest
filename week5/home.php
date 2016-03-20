@@ -8,13 +8,15 @@
 
 <body>
 
-<?php
 
-$name = $_REQUEST['username'];
+<?php
+include("connection.php");
+
+$name = $_REQUEST['$username'];
 echo $name;
 
 ?>
-?>
+
 
 <h1>Hello</h1>
 
