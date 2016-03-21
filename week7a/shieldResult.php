@@ -39,12 +39,10 @@ if($power !=empty($_POST)){
 
 
 
-
-
 ?>
 
 
 <footer>
-    <p> S.H.I.E.L.D Copyright(c) 2016 </p>
+    <p style="background-color: darkgreen" align="center" > S.H.I.E.L.D Copyright(c) 2016 </p>
 </footer>
 </html>
