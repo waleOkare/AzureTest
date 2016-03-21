@@ -17,7 +17,7 @@
 <br>
  <br>
 
-<form method="post" action="login.php">         <!--it calls login.php -->
+<form method="post" action="login.php?">         <!--it calls login.php -->
 <label>Username:</label>
 
 <input type="text" name="username" placeholder="username"/>

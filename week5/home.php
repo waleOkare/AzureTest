@@ -16,10 +16,10 @@ include("login.php");
 
 <?php
 
-$username=$_GET['username'];
+$username= $_POST["username"];
 
 
-echo " Current user Logged in as : " . $username;
+echo "Current user Logged in as : " . $username;
 
 
 

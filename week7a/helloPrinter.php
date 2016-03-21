@@ -12,7 +12,7 @@
 $Earth = $_GET["Earth"];
 // echo $Earth;
 
-echo " Hello " . $Earth;
+echo "Hello " . $Earth;
 
 
 ?>
