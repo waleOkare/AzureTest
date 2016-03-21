@@ -1,0 +1,29 @@
+@import "templatecolours.css";
+
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* this is to control the navigation bar */
+
+nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav>ul>li{
+    flaot:left;
+}
+
+nav>ul>li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+
