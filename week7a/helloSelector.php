@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,11 +7,13 @@
 </head>
 <body>
 
-
+<a href="helloPrinter.php" > Earth </a>
+<a href="helloPrinter.php" > Mars </a>
+<a href="helloPrinter.php" > Uranus </a>
 
 <?php
 
-echo "working";
+ echo "working";
 
 ?>
 
