@@ -7,7 +7,8 @@
 <h1> Welcome to S.H.I.E.L.D ! </h1>
 
 <img src="http://logonoid.com/images/agents-of-shield-logo.png" width="200px"/>
-
+<br>
+<br>
 <body bgcolor="#6b8e23 "></body>
 
 
@@ -20,7 +21,7 @@ $gender=  $_POST["gender"];
 $power = $_POST["powers"];
 
 if($firstname || $surname !=empty($_POST)) {
-    echo $firstname . " " . $surname . " <br>";
+    echo "Username: " . $firstname . " " . $surname . " <br>";
 
 }else
     echo "Both fields required.....";
