@@ -113,3 +113,9 @@ h1{
  a{
      font-size:13px;
  }
+footer>p{
+    width: 150px;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+}
