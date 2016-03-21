@@ -14,20 +14,13 @@ include("login.php");
 <body>
 
 
-<?
+<?php
+
 $username=$_GET['username'];
 
-$sql = "SELECT $username FROM users";
-$result = $db->query($sql);
-while($row = $result->fetch_array())
-{
-    $username = $row["username"];
-}
 
+echo " Current user Logged in as : " . $username;
 
-echo "<li> {$username} </li>" ;
-
-echo "<p> {$username} </p>";
 
 
 ?>
