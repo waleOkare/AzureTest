@@ -3,13 +3,14 @@
 $firstname = $_POST["firstname"];
 $surname = $_POST["surname"];
 
-$male=   $_POST["male"];
-$female= $_POST["female"];
+$sex1=   $_POST["male"];
+$sex= $_POST["female"];
+
 $power = $_POST["powers"];
 
 echo $firstname . " " . $surname . " <br>";
 
-echo "Gender: " . $male . $female . " <br> ";
+echo "Gender: " . $sex1 . $sex . " <br> ";
 
 echo "Main Superhero Power:  " . $power;
 
