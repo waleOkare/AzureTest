@@ -14,11 +14,26 @@
 $firstname = $_POST["firstname"];
 $surname = $_POST["surname"];
 $gender=  $_POST["gender"];
-
 $power = $_POST["powers"];
-echo $firstname . " " . $surname . " <br>";
+
+if($firstname || $surname !=empty($_POST)) {
+    echo $firstname . " " . $surname . " <br>";
+
+}else
+    echo "Both fields required.....";
+
+
 echo "Gender: " . $gender. " <br> ";
-echo "Main Superhero Power:  " . $power;
+
+
+
+
+if($power !=empty($_POST)){
+    echo "Main Superhero Power:  " . $power;
+}else
+    echo "You need to state your powers, NB: Batman is a detective not a superhero incase your going that route.  ";
+
+
 
 
 
