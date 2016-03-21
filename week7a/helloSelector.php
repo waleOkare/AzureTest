@@ -9,7 +9,7 @@
 
 <h4> Where would you like to say hello? </h4>
 
-<a href="helloPrinter.php" > <?php echo "Earth" ?> </a>
+<a href="helloPrinter.php" > <?php echo "Earth1" ?> </a>
 <br>
 <a href="helloPrinter.php" > <?php echo " Mars" ?> </a>
 <br>
