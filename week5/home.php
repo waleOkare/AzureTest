@@ -10,12 +10,13 @@
 
 
 <?php
-include("connection.php");
+include("login.php");
 
 $name = $_REQUEST['$username'];
 echo $name;
 
 ?>
+
 
 
 <h1>Hello</h1>
