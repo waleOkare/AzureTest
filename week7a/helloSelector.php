@@ -13,7 +13,7 @@
     $Earth = $_POST["Earth"];
     echo "Earth" ?> </a>
 <br>
- <?php echo "<a href=\"helloPrinter.php\" >   Mars" ?> </a>
+ <?php echo  "<a href='helloPrinter.php' >   Mars" ?> </a>
 <br>
 <a href="helloPrinter.php" ><?php echo "Uranus" ?> </a>
 
