@@ -10,9 +10,9 @@
 
 <?php
 $Earth = $_GET["Earth"];
-echo $Earth;
+// echo $Earth;
 
-echo " <p> Hello </p> " . $Earth;
+echo " Hello " . $Earth;
 
 
 ?>
