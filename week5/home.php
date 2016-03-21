@@ -12,8 +12,8 @@
 <?php
 include("login.php");
 
-$name = $_REQUEST['$username'];
-echo $name;
+$username = $_GET["username"];
+echo $username;
 
 ?>
 
