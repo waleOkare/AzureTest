@@ -15,8 +15,9 @@ include("login.php");
 
 
 <?
+$username=$_GET['username'];
 
-$sql = "SELECT '$username' FROM users";
+$sql = "SELECT $username FROM users";
 $result = $db->query($sql);
 while($row = $result->fetch_array())
 {
