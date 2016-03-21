@@ -18,9 +18,13 @@ include("connection.php");
 
 $sql = "SELECT '$username' FROM users";
 $result = $db->query($sql);
-$username = $_GET["username"];
+while($row = $result->fetch_array())
+{
+    $username = $row["username"];
+}
 
-echo $username;
+
+echo "<li> {$username} </li>" ;
 
 echo "<p> {$username} </p>";
 
