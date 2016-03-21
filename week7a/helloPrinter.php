@@ -9,12 +9,11 @@
 <body>
 
 <?php
-$Earth = $_GET["Earth"];
-$Mars = $_GET["Mars"];
-$Uranus = $_GET["Uranus"];
+$Planet = $_GET["Earth"&& "Mars" && "Uranus"];
+
 // echo $Earth;
 
-echo "Hello " . $Earth .$Mars .$Uranus ;
+echo "Hello " . $Planet ;
 
 
 ?>
