@@ -1,6 +1,4 @@
-<?php
-include("helloPrinter.php")
-?>
+
 <!DOCTYPE html>
 <html>
 <head>
