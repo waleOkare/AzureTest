@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title> S.H.I.E.L.D </title>
 </head>
-
+<h1> Welcome to S.H.I.E.L.D ! </h1>
 <body bgcolor="#6b8e23 "></body>
 
 
@@ -13,17 +13,14 @@
 
 $firstname = $_POST["firstname"];
 $surname = $_POST["surname"];
-
 $gender=  $_POST["gender"];
 
-
 $power = $_POST["powers"];
-
 echo $firstname . " " . $surname . " <br>";
-
 echo "Gender: " . $gender. " <br> ";
-
 echo "Main Superhero Power:  " . $power;
+
+
 
 ?>
 
