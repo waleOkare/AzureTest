@@ -1,4 +1,9 @@
 
+<?php
+include("connection.php");
+
+?>
+
 <head>
 <meta charset="utf-8">
     <title> Welcome </title>
@@ -9,13 +14,16 @@
 <body>
 
 
-<?php
-include("login.php");
+<?
 
+$sql = "SELECT '$username' FROM users";
+$result = $db->query($sql);
 $username = $_GET["username"];
 echo $username;
 
 echo "<p> current logged in user is:  </p> " . $username;
+
+
 ?>
 
 
