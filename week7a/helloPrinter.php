@@ -1,3 +1,7 @@
+<?php
+include("helloSelector.php")
+    ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,6 +9,24 @@
     <title>HelloPrinter</title>
 </head>
 <body>
+
+<?php
+$Earth = $_GET["Earth"];
+
+echo "Hello" . $Earth;
+
+
+?>
+
+
+
+
+
+
+
+
+
+
 
 
 <?php
