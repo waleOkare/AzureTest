@@ -15,7 +15,7 @@ nav>ul{
     overflow: hidden;
 }
 nav>ul>li{
-    flaot:left;
+    float:left;
 }
 
 nav>ul>li a {
