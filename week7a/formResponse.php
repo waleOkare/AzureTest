@@ -9,7 +9,7 @@ if($forename || $surname !=empty($_POST)){
     echo "Hello " . $forename . " " . $surname;
 }else
 
-echo "both field required";
+echo "A field required, you cannot submit an empty form";
 
 
 
