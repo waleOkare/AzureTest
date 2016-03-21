@@ -22,19 +22,6 @@ echo "Hello" . $Earth;
 
 
 
-
-
-
-
-
-
-
-<?php
-
-echo "working";
-
-?>
-
 </body>
 </html>
 
