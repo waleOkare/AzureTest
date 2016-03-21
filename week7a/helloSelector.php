@@ -9,13 +9,12 @@
 
 <h4> Where would you like to say hello? </h4>
 
-<a href="helloPrinter.php" > <?php
-    $Earth = $_POST["Earth"];
-    echo "Earth" ?> </a>
+<?php echo  "<a href='helloPrinter.php' >   Earth </a> " ?>
+
 <br>
- <?php echo  "<a href='helloPrinter.php' >   Mars" ?> </a>
+ <?php echo  "<a href='helloPrinter.php' >   Mars  </a> " ?>
 <br>
-<a href="helloPrinter.php" ><?php echo "Uranus" ?> </a>
+<?php echo " <a href='helloPrinter.php' >  Uranus </a> " ?>
 
 
 
