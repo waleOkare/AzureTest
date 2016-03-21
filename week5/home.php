@@ -15,8 +15,8 @@ include("login.php");
 $username = $_GET["username"];
 echo $username;
 
+echo "<p> current logged in user is:  </p> " . $username;
 ?>
-
 
 
 
