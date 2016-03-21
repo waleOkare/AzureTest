@@ -1,5 +1,7 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>HelloSelector</title>
@@ -7,10 +9,13 @@
 <body>
 
 
- <h1> working  </h1>
 
+<?php
 
+echo "working";
 
+?>
 
 </body>
 </html>
+
