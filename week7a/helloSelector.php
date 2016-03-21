@@ -10,7 +10,7 @@
 <h4> Where would you like to say hello? </h4>
 
 <a href="helloPrinter.php" > <?php
-    $Earth = "Earth";
+    $Earth = $_POST["Earth"];
     echo "Earth" ?> </a>
 <br>
 <a href="helloPrinter.php" > <?php echo " Mars" ?> </a>
