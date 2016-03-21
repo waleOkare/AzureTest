@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title> S.H.I.E.L.D </title>
 </head>
-<h1> Welcome to S.H.I.E.L.D ! </h1>
+<h1 style="background-color: transparent"> Welcome to S.H.I.E.L.D ! </h1>
 
 <img src="http://logonoid.com/images/agents-of-shield-logo.png" width="200px"/>
 <br>
@@ -12,7 +12,7 @@
 <body bgcolor="#6b8e23 "></body>
 
 
-</html>
+
 <?php
 
 $firstname = $_POST["firstname"];
@@ -43,3 +43,8 @@ if($power !=empty($_POST)){
 
 ?>
 
+
+<footer>
+    <p> S.H.I.E.L.D Copyright(c) 2016 </p>
+</footer>
+</html>
