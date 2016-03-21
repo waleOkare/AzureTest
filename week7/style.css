@@ -5,9 +5,7 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-
 /* this is to control the navigation bar */
-
 nav>ul{
     list-style-type: none;
     margin: 0;
@@ -28,4 +26,16 @@ nav>ul>li a {
 li a:hover{
     color: #363636;
 }
+/* End of Navigation bar Control */
 
+/* Control the image sizes */
+
+#csdmlogo{
+    width: 300px;
+}
+#banner{
+    max-width: 960px;
+}
+#hos{
+    width: 200px;
+}
