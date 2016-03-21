@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title> S.H.I.E.L.D </title>
 </head>
-<h1 style="background-color: transparent"> Welcome to S.H.I.E.L.D ! </h1>
+<h1 style="background-color: darkgreen" align="center"> Welcome to S.H.I.E.L.D ! </h1>
 
 <img src="http://logonoid.com/images/agents-of-shield-logo.png" width="200px"/>
 <br>
