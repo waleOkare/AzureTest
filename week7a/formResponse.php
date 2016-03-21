@@ -1,6 +1,9 @@
 <?php
-$forenames = $_POST["forename"];
+
+$firstname = $_POST["firstname"];
+
 $surname = $_POST["surname"];
 
-echo "Hello " .$forenames . $surname;
+echo "Hello " .$firstname . $surname;
 
+?>
