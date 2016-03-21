@@ -19,9 +19,10 @@ include("connection.php");
 $sql = "SELECT '$username' FROM users";
 $result = $db->query($sql);
 $username = $_GET["username"];
+
 echo $username;
 
-echo "<p> current logged in user is:  </p> " . $username;
+echo "<p> {$username} </p>";
 
 
 ?>
