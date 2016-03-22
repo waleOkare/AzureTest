@@ -9,7 +9,8 @@
     <h1 style="color: silver" align="center"> SUPERHERO FORM  </h1>
 </header>
 
-<? include ("dbconnection.php"); ?>
+
+
 
 <?php
 
