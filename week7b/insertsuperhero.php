@@ -17,8 +17,8 @@ $firstname = $_POST["firstname"];
 $lastname = $_POST["lastname"];
 $power = $_POST["powers"];
 
-$db = "INSERT INTO superheros (firstname, lastname, mainSuperpower)
-VALUES ('$firstname', '$lastname', '$power')";
+   // $db = "INSERT INTO superheros (firstname, lastname, mainSuperpower)
+  //  VALUES ('$firstname', '$lastname', '$power')";
 
 
 echo "firstname: " . $firstname . "<br> " . "lastname:" . " " . $lastname . " <br>";
