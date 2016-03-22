@@ -18,8 +18,7 @@ $lastname = $_POST["lastname"];
 $power = $_POST["powers"];
 
 
-echo "firstname: " . $firstname . " " . "lastname:" . " " . $lastname . " <br>";
-
+echo "firstname: " . $firstname . "<br> " . "lastname:" . " " . $lastname . " <br>";
 echo " Main Superhero Power:  " . " " . $power;
 
 
