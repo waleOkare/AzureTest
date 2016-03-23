@@ -11,7 +11,7 @@
 </header>
 
 
-<? include ("dbconnection.php"); ?>
+<? include("db_connect.php"); ?>
 
 <?php
 
