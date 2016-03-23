@@ -4,11 +4,11 @@ include ("db_connect.php");
 
 
 
-$firstname = $_POST["firstname"];
-$lastname = $_POST["lastname"];
+$firstname = $_POST["firstName"];
+$lastname = $_POST["lastName"];
 $superpowers = $_POST["superpowers"];
 
-   $sql = "INSERT INTO superheros (firstname, lastname, mainSuperpower)
+   $sql = "INSERT INTO superheros (firstName, lastName, mainSuperpower)
    VALUES ('$firstname', '$lastname', '$superpowers')";
 
 if(mysqli_query($db,$sql)) {
