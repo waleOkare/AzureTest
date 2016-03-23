@@ -2,16 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>superheroform</title>
+    <title>Insert Superhero</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body BGCOLOR="#F5FFFA">
 <header style="background-color: darkgreen">
-    <h1 style="color: silver" align="center"> SUPERHERO FORM  </h1>
+    <h1 style="color: silver" align="center"> The Super-Superhero System </h1>
+    <h2> Create a Superhero </h2>
+    <a href="index.php"> Return to home.... </a>
+
 </header>
 
-<a href="insertsuperhero.php"> INSERT SUPERHERO </a>
 
+<main>
 <fieldset>
     <form action="insertsuperhero.php" method="post" >
         <label>firstname</label> <input type="text" name="firstname" placeholder="firstname">
@@ -23,11 +26,12 @@
         <label>  Main Superhero Power:   </label>
         <br>
         <br>
-        <textarea name="powers" rows = "10" cols="50" maxlength="200" ></textarea>
+        <textarea name="superpowers" rows = "10" cols="50" maxlength="200" ></textarea>
         <br>
         <input type="submit" value="Submit" style="color: darkgreen">
     </form>
 </fieldset>
+
 
 
 <footer>
@@ -37,6 +41,6 @@
 
 
 
-
+</main>
 </body>
 </html>

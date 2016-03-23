@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,22 +9,28 @@
 <header style="background-color: darkgreen">
     <h1 style="color: silver" align="center"> SUPERHERO FORM  </h1>
 </header>
-
-
-
-
+ -->
 <?php
+include ("db_connect.php");
+
+
+
 
 $firstname = $_POST["firstname"];
 $lastname = $_POST["lastname"];
-$power = $_POST["powers"];
+$superpowers = $_POST["superpowers"];
 
-   // $db = "INSERT INTO superheros (firstname, lastname, mainSuperpower)
-  //  VALUES ('$firstname', '$lastname', '$power')";
+   $sql = "INSERT INTO superheros (firstname, lastname, mainSuperpower)
+   VALUES ('$firstname', '$lastname', '$superpowers')";
 
+if(mysqli_query($db,$sql)) {
+}else{
+    echo "Error: " . $sql . "<br>" . mysqli_error($db);
+}
 
-echo "firstname: " . $firstname . "<br> " . "lastname:" . " " . $lastname . " <br>";
-echo " Main Superhero Power:  " . " " . $power;
+header("location:index.php");
+  //echo "firstname: " . $firstname . "<br> " . "lastname:" . " " . $lastname . " <br>";
+// echo " Main Superhero Power:  " . " " . $superpowers;
 
 
 ?>
@@ -33,7 +40,7 @@ echo " Main Superhero Power:  " . " " . $power;
 
 
 
-
+<!--
 <footer>
     <p style="background-color: darkgreen" align="center"  >SUPERHERO Copyright(c) 2016 </p>
 </footer>
