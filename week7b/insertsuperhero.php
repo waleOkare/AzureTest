@@ -1,6 +1,6 @@
 
 <?php
-// include ("db_connect.php");
+ include ("db_connect.php");
 
 
 
@@ -17,7 +17,7 @@ echo "Main SuperPower: " . $superpowers;
 
 
 
-/*
+
    $sql = "INSERT INTO superheros (firstName, lastName, mainSuperpower)
    VALUES ('$firstname', '$lastname', '$superpowers')";
 
@@ -27,7 +27,7 @@ if(mysqli_query($db,$sql)) {
 }
 
 header("location:index.php");
-*/
+
 
 ?>
 
