@@ -1,15 +1,3 @@
-<!--
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>superheroform</title>
-</head>
-<body BGCOLOR="#F5FFFA">
-<header style="background-color: darkgreen">
-    <h1 style="color: silver" align="center"> SUPERHERO FORM  </h1>
-</header>
- -->
 <?php
 include ("db_connect.php");
 
@@ -29,22 +17,6 @@ if(mysqli_query($db,$sql)) {
 }
 
 header("location:index.php");
-  //echo "firstname: " . $firstname . "<br> " . "lastname:" . " " . $lastname . " <br>";
-// echo " Main Superhero Power:  " . " " . $superpowers;
 
 
 ?>
-
-
-
-
-
-
-<!--
-<footer>
-    <p style="background-color: darkgreen" align="center"  >SUPERHERO Copyright(c) 2016 </p>
-</footer>
-
-
-</body>
-</html>
