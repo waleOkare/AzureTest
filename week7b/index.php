@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
-<body bgcolor="#8b0000">
+<body>
 
 <header>
     <h1> The Super-Superhero System </h1>

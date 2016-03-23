@@ -7,8 +7,8 @@
 </head>
 <body>
 
-<header style="background-color: darkgreen">
-    <h1 style="color: silver" align="center"> The Super-Superhero System </h1>
+<header>
+    <h1> The Super-Superhero System </h1>
     <h2> Display all Battles </h2>
     <a href="index.php"> Return to home.... </a>
 
