@@ -11,8 +11,8 @@
     <nav>
 
         <ul>
-          <li>   <a href="superheroform.html"> SUPERHEROFORM </a> </li>
-           <li> <a href="battle.php">BATTLE </a> </li>
+          <li>   <a href="superheroform.html"> SUPERHERO FORM </a> </li>
+           <li> <a href="battle.php"> BATTLE </a> </li>
           <li> <a href="displaybattles.php"> DISPLAY BATTLE </a> </li>
         <li>  <a href="displaySuperheros"> DISPLAY SUPERHEROS </a>  </li>
         </ul>
@@ -20,7 +20,7 @@
 
 </header>
 
-<body bgcolor="silver">
+<body bgcolor="#8b0000">
 
 
 
