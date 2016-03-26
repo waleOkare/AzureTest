@@ -17,7 +17,6 @@ echo "Main SuperPower: " . $superpowers;
 
 
 
-
    $sql = "INSERT INTO superheros (firstName, lastName, mainSuperpower)
    VALUES ('$firstname', '$lastname', '$superpowers')";
 
