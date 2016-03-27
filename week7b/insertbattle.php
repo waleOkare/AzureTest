@@ -5,7 +5,7 @@ $superheroID = $_POST["superhero"];
 $villan = $_POST["villan"];
 
 $sql = "INSERT INTO battles (superheroID, villanFought)
- VALUES ('$superheroID', '$villan')";
+        VALUES ('$superheroID', '$villan')";
 
 if(mysqli_query($db, $sql)) {
 }  else {
@@ -13,5 +13,7 @@ if(mysqli_query($db, $sql)) {
 }
 
 header("location:index.php");
+
 ?>
+
 

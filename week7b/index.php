@@ -14,12 +14,11 @@
 
 </header>
 <p> What would you like to do? </p>
-
     <nav>
 
         <ul>
           <li><a href="insertsuperhero.php"> INSERT A SUPERHERO </a> </li>
-            <li><a href="displaySuperheros.php"> DISPLAY SUPERHEROS </a>  </li>
+            <li><a href="displaySuperheros.php"> DISPLAY ALL SUPERHEROS </a>  </li>
            <li><a href="battle.php"> INSERT A BATTLE </a> </li>
           <li><a href="displaybattles.php"> DISPLAY ALL BATTLE </a> </li>
 

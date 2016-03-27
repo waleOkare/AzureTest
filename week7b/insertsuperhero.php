@@ -3,11 +3,9 @@
  include ("db_connect.php");
 
 
-
-
-$firstname = $_POST["firstName"];
-$lastname = $_POST["lastName"];
-$superpowers = $_POST["superpowers"];
+$firstname = $_POST["firstname"];
+$lastname = $_POST["lastname"];
+$superpower = $_POST["superpower"];
 
 
 echo "firstName: " . " " . $firstname . " <br> " . " lastName: " . "  " . $lastname .  " <br> ";
@@ -17,11 +15,10 @@ echo "Main SuperPower: " . $superpowers;
 
 
    $sql = " INSERT INTO superheros (firstName, lastName, mainSuperpower)
-               VALUES ('$firstname', '$lastname', '$superpowers')";
+               VALUES ('$firstname', '$lastname', '$superpower')";
 
 
 if(mysqli_query($db,$sql)) {
-    echo "'INSERT INTO superheroes' - Successful ";
  }else{
     echo "Error: " . $sql . "<br>" . mysqli_error($db);
 }
@@ -29,5 +26,5 @@ if(mysqli_query($db,$sql)) {
 header("location:index.php");
 
 
-
+?>
 

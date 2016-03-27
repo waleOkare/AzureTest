@@ -19,6 +19,7 @@ include ("db_connect.php");
 $sql_query = "SELECT * FROM superheros";
 $result = $db->query($sql_query);
 while($row = $result->fetch_array()) {
+
     $firstname = $row['firstname'];
     $lastname = $row['lastname'];
     $mainSuperpower = $row['mainSuperpower'];
@@ -27,9 +28,6 @@ while($row = $result->fetch_array()) {
                <p> This superheros main power is <strong> {$mainSuperpower}</strong></p>
                </article>";
 }
-
-
-
 ?>
 </main>
 </body>
