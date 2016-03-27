@@ -34,8 +34,8 @@ while($row = $result ->fetch_array()){
     $mainSuperpower = $row['mainSuperPower'];
     $villanFought = $row['villanFought'];
     echo "<article>
-           <p> The superhero known as <strong>($firstname} {$lastname}</strong> recently fought <strong> {villanFought}</strong> using
-           <strong>{$mainSuperPower}</strong> </p>";
+           <p> The superhero known as <strong>{$firstname} {$lastname}</strong> recently fought <strong> {$villanFought}</strong> using
+           <strong> {$mainSuperpower} </strong> </p>";
 }
     ?>
 </main>
