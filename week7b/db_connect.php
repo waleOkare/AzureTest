@@ -12,9 +12,10 @@ if($db){
     echo "Connection Failed";
 }
 
-//if($db->connect_errno){
-  //  die('Connectfailed['.$db->connect_error.']');
-//}
+
+if($db->connect_errno){
+   die('Connectfailed['.$db->connect_error.']');
+}
 
 
 
