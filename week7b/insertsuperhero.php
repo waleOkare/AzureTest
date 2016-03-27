@@ -10,7 +10,7 @@ $superpower = $_POST["superpower"];
 
 echo "firstName: " . " " . $firstname . " <br> " . " lastName: " . "  " . $lastname .  " <br> ";
 
-echo "Main SuperPower: " . $superpowers;
+echo "Main SuperPower: " . $superpower;
 
 
 
