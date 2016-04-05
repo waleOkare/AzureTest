@@ -26,7 +26,14 @@ $sql_display_users = "
 
 $sql = mysqli_query($db, $sql_display_users);
 
+echo '<table border = "1">';
+echo '<tr>';
 
+echo '<th> # </th>';
+echo '<th> UID </th>';
+echo '<th> Username </th>';
+
+echo '</tr>';
 
 $indx = 1;
 
@@ -37,14 +44,7 @@ while($row = mysqli_fetch_array($sql, MYSQLI_ASSOC)){
 
 
 
-    echo '<table border = "1">';
-    echo '<tr>';
 
-    echo '<th> # </th>';
-    echo '<th> UID </th>';
-    echo '<th> Username </th>';
-
-    echo '</tr>';
 
     echo '<tr>';
     echo "<td> $indx  </td>";
