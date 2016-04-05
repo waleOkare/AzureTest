@@ -27,36 +27,33 @@ $sql_display_users = "
 $sql = mysqli_query($db, $sql_display_users);
 
 echo '<table border = "1">';
+
 echo '<tr>';
 
-echo '<th> # </th>';
-echo '<th> UID </th>';
-echo '<th> Username </th>';
+echo "<th> # </th>";
+echo "<th> uid </th>";
+echo "<th> Username </th>";
 
-echo '</tr>';
+echo "</tr>";
 
 $indx = 1;
-
 while($row = mysqli_fetch_array($sql, MYSQLI_ASSOC)){
 
     $uid = $row['uid'];
     $username = $row['username'];
 
 
-
-
-
-    echo '<tr>';
+    echo "<tr>";
     echo "<td> $indx  </td>";
     echo "<td> $uid </td>";
     echo "<td> $username</td>";
 
-    echo '</tr>';
+    echo "</tr>";
    $indx++;
 
-    echo '</table>';
-}
 
+}
+echo '</table>';
 
 
 
