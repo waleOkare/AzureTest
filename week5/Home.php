@@ -10,20 +10,13 @@ echo '<br>';
 </head>
 <body>
 
-<?php
 
-$username = $_POST['username'];
-
-echo" Current user Login has "  . " ".  $username;
-echo'<br>';
-
-?>
 
 <h1> Welcome!</h1>
 
 
 
-<P> what the fuck is hsppen </P>
+<p> what the fuck is hsppen </p>
 <?php
 
 
