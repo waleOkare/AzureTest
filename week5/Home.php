@@ -1,7 +1,3 @@
-<?php
-include ("connection.php");
-echo '<br>';
-?>
 <html>
 <head>
     <meta charset="utf-8">
@@ -16,8 +12,11 @@ echo '<br>';
 
 
 
-<p> what the fuck is hsppen </p>
+<p> what the fuck is happening </p>
+
 <?php
+include ("connection.php");
+
 
 
 $sql_display_users = "
