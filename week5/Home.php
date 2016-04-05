@@ -7,7 +7,7 @@
 <body>
 
 <?php
-include ("login.php");
+
 $username = $_POST['username'];
 
 echo" Current user Login has "  . " ".  $username;
