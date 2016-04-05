@@ -21,10 +21,6 @@ echo'<br>';
 
 <h1> Welcome!</h1>
 
-<br>
-<br>
-<br>
-
 <?php
 
 
@@ -46,26 +42,28 @@ while($row = mysqli_fetch_array($sql, MYSQLI_ASSOC)){
 
 
 
-    echo "<table border = '1'>";
+    echo '<table border = "1">';
 
-    echo "<tr>";
+    echo '<tr>';
 
-    echo "<th> # </th>";
-    echo "<th> Username </th>";
+    echo '<th> # </th>';
+    echo '<th> Username </th>';
 
-    echo "</tr>";
+    echo '</tr>';
 
-    echo "<tr>";
-    echo "<td> $indx  </td>";
-    echo "<td> $uid </td>";
-    echo "<td> $username</td>";
+    echo '<tr>';
+    echo '<td> $indx  </td>';
+    echo '<td> $uid </td>';
+    echo '<td> $username</td>';
 
-    echo "</tr>";
+    echo '</tr>';
    $indx++;
 
+    echo '</table>';
 }
 
-echo "</table>";
+
+
 
 ?>
 
