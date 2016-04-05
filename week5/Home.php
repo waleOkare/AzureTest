@@ -29,7 +29,7 @@ echo'<br>';
 
 
 $sql_display_users = "
-           SELECT username
+           SELECT uid,username
            FROM users
 ";
 
@@ -41,6 +41,7 @@ $indx = 1;
 
 while($row = mysqli_fetch_array($sql, MYSQLI_ASSOC)){
 
+    $uid = $row['uid'];
     $username = $row['username'];
 
 
@@ -53,8 +54,10 @@ while($row = mysqli_fetch_array($sql, MYSQLI_ASSOC)){
     echo "<th> Username </th>";
 
     echo "</tr>";
+
     echo "<tr>";
     echo "<td> $indx  </td>";
+    echo "<td> $uid </td>";
     echo "<td> $username</td>";
 
     echo "</tr>";
