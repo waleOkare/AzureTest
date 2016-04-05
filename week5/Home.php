@@ -6,6 +6,12 @@
 </head>
 <body>
 
+<?php
+$username = $_POST['username'];
+
+echo'Current user Login has: ' . " ".  $username;
+echo'<br>';
+?>
 
 <h1> Welcome!</h1>
 
