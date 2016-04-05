@@ -15,6 +15,7 @@ $Uranus= $_GET["Uranus"];
 // echo $Earth;
 
 echo "Hello " . $Earth .$Mars .$Uranus ;
+// echo "Hello " . $Earth || $Mars || $Uranus ;
 
 
 ?>
