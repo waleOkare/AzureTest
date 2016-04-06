@@ -14,10 +14,10 @@
     <nav>
 
         <ul>
-            <li><a href="#"> w </a> </li>
-            <li><a href="#"> e </a>  </li>
-            <li><a href="#"> r </a> </li>
-            <li><a href="#">  t</a> </li>
+            <li><a href="DisplayAllMovies.php"> Display All Movies </a> </li>
+            <li><a href="DisplayMoviesMarvelStudio.php"> Display Movies Created by Marvel Studios </a>  </li>
+            <li><a href="DisplayMoviesAfter2010.php"> Display All Movies Created after 2010 </a> </li>
+            <li><a href="DisplayAllXmenFilms.php"> Display all X-Men Films </a> </li>
 
         </ul>
 
@@ -25,5 +25,15 @@
 
 </header>
 
+<main>
+
+
+
+
+
+
+</main>
+</body>
+</html>
 
 
