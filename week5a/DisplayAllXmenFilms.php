@@ -33,7 +33,8 @@ echo "<br>";
 
 
 $Movies_SQL = "SELECT marvelMovieID, title
-                                  FROM marvelmovies
+               FROM marvelmovies
+               WHERE title = 'X-Men'
 
 ";
 
