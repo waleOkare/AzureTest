@@ -7,7 +7,7 @@ body{
 }
 /* this is to control the navigation bar */
 header{
-    background-color: darkred;
+    background-color: darkolivegreen;
 }
 nav>ul{
     list-style-type: none;
@@ -21,13 +21,13 @@ nav>ul>li{
 
 nav>ul>li a {
     display: block;
-    color: #000000;
+    color: darkred;
     text-align: center;
     padding: 10px 30px;
     text-decoration: none;
 }
 li a:hover{
-    color: navy;
+    color: orangered;
 }
 /* End of Navigation bar Control */
 
