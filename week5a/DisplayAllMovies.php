@@ -44,7 +44,7 @@ echo "<table border = '1'>";
 
 echo "<tr>";
 
-echo "<th> # </th>";
+
 echo "<th> marvelMovieID </th>";
 echo "<th> Title </th>";
 
@@ -57,7 +57,7 @@ while($row = mysqli_fetch_array($Movies_SQL_Query, MYSQLI_ASSOC)) {
     $title = $row['title'];
 
     echo "<tr>";
-    echo "<td> $indx  </td>";
+
     echo "<td> $marvelMovieID  </td>";
     echo "<td> $title </td>";
 
