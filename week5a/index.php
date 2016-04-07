@@ -10,7 +10,7 @@
 
 <body>
 
-<img src="images/Marvel-logo.png"  class="logo"/>
+<img src="images/Marvel-logo.png" class="logo"/>
 <header>
     <nav>
 
