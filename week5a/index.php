@@ -10,7 +10,7 @@
 
 <body>
 
-<img src="images/Marvel-logo.png" class="logo"/>
+<img src="http://logok.org/wp-content/uploads/2015/05/Marvel-logo.png" class="logo"/>
 <header>
     <nav>
 
