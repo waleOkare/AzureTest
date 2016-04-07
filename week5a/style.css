@@ -65,3 +65,5 @@ td, th {
 td{
     vertical-align: bottom;
 }
+
+tr:hover {background-color: darkred;}
