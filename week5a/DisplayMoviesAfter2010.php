@@ -14,10 +14,11 @@
     <nav>
 
         <ul>
-            <li><a href="DisplayAllMovies.php"> Display All Movies </a> </li>
-            <li><a href="DisplayMoviesMarvelStudio.php"> Display Movies Created by Marvel Studios </a>  </li>
-            <li><a href="DisplayMoviesAfter2010.php"> Display All Movies Created after 2010 </a> </li>
-            <li><a href="DisplayAllXmenFilms.php"> Display all X-Men Films </a> </li>
+            <li><a href="index.php"> HOME </a> </li>
+            <li><a href="DisplayAllMovies.php"> DISPLAY ALL MOVIES </a> </li>
+            <li><a href="DisplayMoviesMarvelStudio.php"> DISPLAY ALL MOVIES CREATED BY MARVEL STUDIO </a>  </li>
+            <li><a href="DisplayMoviesAfter2010.php">DISPLAY ALL MOVIES CREATED AFTER 2010</a> </li>
+            <li><a href="DisplayAllXmenFilms.php">DISPLAY ALL XMEN FILM </a> </li>
 
         </ul>
 
@@ -36,7 +37,7 @@ echo "<br>";
 ";
 
 $Movies_SQL_Query = mysqli_query($db, $Movies_SQL);
-echo'<h2> TABLE DISPLAYS ALL MOVIES CREATED AFTER 2010 FROM  MARVELMOVIES DATABASE </h2>';
+echo'<h2> TABLE DISPLAYS ALL MOVIES CREATED <strong> AFTER 2010 </strong> FROM  MARVELMOVIES DATABASE </h2>';
 echo'<br>';
 
 echo "<table border = '1'>";
@@ -72,13 +73,6 @@ echo "<table border = '1'>";
     }
 
     echo "</table>";
-
-
-
-
-
-
-
 
 
 

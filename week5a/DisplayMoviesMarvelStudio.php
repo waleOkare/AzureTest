@@ -14,10 +14,11 @@
     <nav>
 
         <ul>
-            <li><a href="DisplayAllMovies.php"> Display All Movies </a> </li>
-            <li><a href="DisplayMoviesMarvelStudio.php"> Display Movies Created by Marvel Studios </a>  </li>
-            <li><a href="DisplayMoviesAfter2010.php"> Display All Movies Created after 2010 </a> </li>
-            <li><a href="DisplayAllXmenFilms.php"> Display all X-Men Films </a> </li>
+            <li><a href="index.php"> HOME </a> </li>
+            <li><a href="DisplayAllMovies.php"> DISPLAY ALL MOVIES </a> </li>
+            <li><a href="DisplayMoviesMarvelStudio.php"> DISPLAY ALL MOVIES CREATED BY MARVEL STUDIO </a>  </li>
+            <li><a href="DisplayMoviesAfter2010.php">DISPLAY ALL MOVIES CREATED AFTER 2010</a> </li>
+            <li><a href="DisplayAllXmenFilms.php">DISPLAY ALL XMEN FILM </a> </li>
 
         </ul>
 
