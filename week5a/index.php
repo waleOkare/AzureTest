@@ -10,11 +10,12 @@
 
 <body>
 
+<a href="http://logok.org/wp-content/uploads/2015/05/Marvel-logo.png">  </a>
 <header>
     <nav>
 
         <ul>
-            <li><a href="http://logok.org/wp-content/uploads/2015/05/Marvel-logo.png">  </a> </li>
+
             <li><a href="index.php"> HOME </a> </li>
             <li><a href="DisplayAllMovies.php"> DISPLAY ALL MOVIES </a> </li>
             <li><a href="DisplayMoviesMarvelStudio.php"> DISPLAY ALL MOVIES CREATED BY MARVEL STUDIO </a>  </li>
