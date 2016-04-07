@@ -32,9 +32,9 @@ include ("connection.php");
 echo "<br>";
 
 
-$Movies_SQL = "SELECT marvelMovieID, yearReleased, title
+$Movies_SQL = "SELECT marvelMovieID, title
                                   FROM marvelmovies
-                                  WHERE yearReleased > '2010'
+                                  WHERE title LIKE %X-MEN%
 ";
 
 $Movies_SQL_Query = mysqli_query($db, $Movies_SQL);
@@ -47,7 +47,6 @@ echo "<tr>";
 
 
 echo "<th> marvelMovieID </th>";
-echo "<th> yearReleased </th>";
 echo "<th> Title </th>";
 
 
@@ -57,14 +56,12 @@ $indx = 1;
 while($row = mysqli_fetch_array($Movies_SQL_Query, MYSQLI_ASSOC)) {
 
     $marvelMovieID = $row['marvelMovieID'];
-    $yearReleased = $row['yearReleased'];
     $title = $row['title'];
 
 
     echo "<tr>";
 
     echo "<td> $marvelMovieID  </td>";
-    echo "<td> $yearReleased </td>";
     echo "<td> $title </td>";
 
 

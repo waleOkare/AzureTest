@@ -3,7 +3,7 @@ body{
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    background-color: lightsteelblue;
+    background-color: mintcream;
 }
 /* this is to control the navigation bar */
 header{
@@ -27,7 +27,7 @@ nav>ul>li a {
     text-decoration: none;
 }
 li a:hover{
-    color: orangered;
+    color: goldenrod;
 }
 /* End of Navigation bar Control */
 
