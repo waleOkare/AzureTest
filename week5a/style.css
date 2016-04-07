@@ -6,6 +6,9 @@ body{
     background-color: #DBC9DF;
 }
 /* this is to control the navigation bar */
+header{
+    background-color: darkred;
+}
 nav>ul{
     list-style-type: none;
     margin: 0;
@@ -32,12 +35,12 @@ footer>p{
     text-align: center;
     color:darkred;
 }
-#footer{
+.footer{
     background-color:  darkolivegreen;
 
     height: 200px;
     clear: both;
-    width: 100%;
+  /*  width: 100%; */
 
 }
 
