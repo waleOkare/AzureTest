@@ -68,6 +68,8 @@ while($row = mysqli_fetch_array($Movies_SQL_Query, MYSQLI_ASSOC)) {
 }
 
 echo "</table>";
+
+
 echo'
 <footer class="footer">
     <p> Designed by Wale Patrick(c) </p>
