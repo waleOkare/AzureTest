@@ -15,7 +15,6 @@
     <nav>
 
         <ul>
-          <li> <img src="http://logok.org/wp-content/uploads/2015/05/Marvel-logo.png" class="logo"/> </li>
             <li><a href="index.php"> HOME </a> </li>
             <li><a href="DisplayAllMovies.php"> DISPLAY ALL MOVIES </a> </li>
             <li><a href="DisplayMoviesMarvelStudio.php"> DISPLAY ALL MOVIES CREATED BY MARVEL STUDIO </a>  </li>
