@@ -10,7 +10,7 @@
 
 <body>
 
-<a href="images/Marvel-logo.png"> LOGO  </a>
+<img src="images/Marvel-logo.png"  class="logo"/>
 <header>
     <nav>
 
@@ -42,7 +42,7 @@
 
 <footer class="footer">
     <p> Designed by Wale Patrick(c) </p>
+    <img src="images/Marvel-logo.png"  class="logo"/>
 
-    <a href="images/Marvel-logo.png"> LOGO  </a>
 
 </footer>
