@@ -34,7 +34,7 @@ echo "<br>";
 
 $Movies_SQL = "SELECT marvelMovieID, title
                                   FROM marvelmovies
-                                  WHERE title LIKE %X-MEN
+
 ";
 
 $Movies_SQL_Query = mysqli_query($db, $Movies_SQL);

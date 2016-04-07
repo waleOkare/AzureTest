@@ -41,7 +41,6 @@
 
 <footer class="footer">
     <p> Designed by Wale Patrick(c) </p>
-    <img src="http://logok.org/wp-content/uploads/2015/05/Marvel-logo.png" class="logo" align="center"/>
 
 
 </footer>
