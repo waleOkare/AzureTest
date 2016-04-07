@@ -37,7 +37,7 @@ echo "<br>";
 ";
 
 $Movies_SQL_Query = mysqli_query($db, $Movies_SQL);
-echo'<h2> TABLE DISPLAYS ALL MOVIES CREATED <strong> AFTER 2010 </strong> FROM  MARVELMOVIES DATABASE </h2>';
+echo'<h2> TABLE DISPLAYS ALL MOVIES CREATED <strong style="color: darkred"> AFTER 2010 </strong> FROM  MARVELMOVIES DATABASE </h2>';
 echo'<br>';
 
 echo "<table border = '1'>";

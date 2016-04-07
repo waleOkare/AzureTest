@@ -39,7 +39,7 @@ $Movies_SQL = "SELECT marvelMovieID, title
 
 $Movies_SQL_Query = mysqli_query($db, $Movies_SQL);
 
-echo'<h2> TABLE DISPLAYS <strong> ALL MOVIES </strong> FROM THE MARVELMOVIES DATABASE </h2>';
+echo'<h2> TABLE DISPLAYS <strong style="color: darkred"> ALL MOVIES </strong> FROM THE MARVELMOVIES DATABASE </h2>';
 echo'<br>';
 
 echo "<table border = '1'>";
