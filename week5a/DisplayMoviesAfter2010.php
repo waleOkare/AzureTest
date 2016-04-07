@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Marvel Movies </title>
+    <title>Display All Movies Created After 2010 </title>
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
@@ -24,7 +24,51 @@
     </nav>
 
 </header>
+<?php
+include ("connection.php");
 
+echo "<br>";
+
+
+                   $Movies_SQL = "SELECT marvelMovieID, title, productionStudio
+                                  FROM marvelmovies
+                                  WHERE productionStudio = 'Marvel Studios'
+";
+
+$Movies_SQL_Query = mysqli_query($db, $Movies_SQL);
+echo'<h2> TABLE DISPLAYS ALL MOVIES CREATED AFTER 2010 FROM  MARVELMOVIES DATABASE </h2>';
+echo'<br>';
+
+echo "<table border = '1'>";
+
+    echo "<tr>";
+
+
+        echo "<th> marvelMovieID </th>";
+        echo "<th> Title </th>";
+        echo "<th> productionStudio </th>";
+
+        echo "</tr>";
+
+    $indx = 1;
+    while($row = mysqli_fetch_array($Movies_SQL_Query, MYSQLI_ASSOC)) {
+
+    $marvelMovieID = $row['marvelMovieID'];
+    $title = $row['title'];
+    $productionStudio = $row['productionStudio'];
+
+    echo "<tr>";
+
+        echo "<td> $marvelMovieID  </td>";
+        echo "<td> $title </td>";
+        echo "<td> $productionStudio </td>";
+
+        echo "</tr>";
+
+    $indx++;
+    }
+
+    echo "</table>";
 
 
 

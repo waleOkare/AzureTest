@@ -39,6 +39,8 @@ $Movies_SQL = "SELECT marvelMovieID, title, productionStudio
 
 $Movies_SQL_Query = mysqli_query($db, $Movies_SQL);
 
+echo'<h2> TABLE DISPLAYS ALL MOVIES CREATED BY MARVEL STUDIO FROM MARVELMOVIES DATABASE </h2>';
+echo'<br>';
 
 echo "<table border = '1'>";
 
