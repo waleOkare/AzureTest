@@ -28,5 +28,17 @@ li a:hover{
 }
 /* End of Navigation bar Control */
 
+footer>p{
+    text-align: center;
+    color:darkred;
+}
+#footer{
+    background-color:  darkolivegreen;
+
+    height: 200px;
+    clear: both;
+    width: 100%;
+
+}
 
 

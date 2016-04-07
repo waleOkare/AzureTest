@@ -37,3 +37,6 @@
 </html>
 
 
+<footer class="footer">
+    <p> Designed by Wale Patrick(c) </p>
+</footer>
