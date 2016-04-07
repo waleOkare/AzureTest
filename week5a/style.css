@@ -3,6 +3,7 @@ body{
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #DBC9DF;
 }
 /* this is to control the navigation bar */
 nav>ul{
