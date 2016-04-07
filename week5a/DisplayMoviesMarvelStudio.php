@@ -32,7 +32,7 @@ include ("connection.php");
 echo "<br>";
 
 
-$Movies_SQL = "SELECT marvelMovieID, title
+$Movies_SQL = "SELECT marvelMovieID, title, productionStudio
                FROM marvelmovies
 
 ";
@@ -47,6 +47,7 @@ echo "<tr>";
 
 echo "<th> marvelMovieID </th>";
 echo "<th> Title </th>";
+echo "<th> productionStudio </th>";
 
 echo "</tr>";
 
@@ -55,12 +56,13 @@ while($row = mysqli_fetch_array($Movies_SQL_Query, MYSQLI_ASSOC)) {
 
     $marvelMovieID = $row['marvelMovieID'];
     $title = $row['title'];
+    $productionStudio = $row['productionStudio'];
 
     echo "<tr>";
 
     echo "<td> $marvelMovieID  </td>";
     echo "<td> $title </td>";
-
+    echo "<td> $productionStudio </td>";
 
     echo "</tr>";
 
