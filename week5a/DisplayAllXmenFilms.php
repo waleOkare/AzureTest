@@ -34,7 +34,7 @@ echo "<br>";
 
 $Movies_SQL = "SELECT marvelMovieID, title
                FROM marvelmovies
-               WHERE title = 'X-Men'
+               WHERE title LIKE 'X-Men'
 
 ";
 
