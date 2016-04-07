@@ -34,7 +34,7 @@ echo "<br>";
 
 $Movies_SQL = "SELECT marvelMovieID, title, productionStudio
                FROM marvelmovies
-
+               WHERE productionStudio = 'Marvel Studios'
 ";
 
 $Movies_SQL_Query = mysqli_query($db, $Movies_SQL);
