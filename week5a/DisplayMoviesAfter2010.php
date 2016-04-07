@@ -30,9 +30,9 @@ include ("connection.php");
 echo "<br>";
 
 
-                   $Movies_SQL = "SELECT marvelMovieID, title, productionStudio
+                   $Movies_SQL = "SELECT marvelMovieID, yearReleased, title
                                   FROM marvelmovies
-                                  WHERE productionStudio = 'Marvel Studios'
+                                  WHERE yearReleased > '2010'
 ";
 
 $Movies_SQL_Query = mysqli_query($db, $Movies_SQL);
@@ -45,8 +45,9 @@ echo "<table border = '1'>";
 
 
         echo "<th> marvelMovieID </th>";
+        echo "<th> yearReleased </th>";
         echo "<th> Title </th>";
-        echo "<th> productionStudio </th>";
+
 
         echo "</tr>";
 
@@ -54,14 +55,16 @@ echo "<table border = '1'>";
     while($row = mysqli_fetch_array($Movies_SQL_Query, MYSQLI_ASSOC)) {
 
     $marvelMovieID = $row['marvelMovieID'];
+        $yearReleased = $row['yearReleased'];
     $title = $row['title'];
-    $productionStudio = $row['productionStudio'];
+
 
     echo "<tr>";
 
         echo "<td> $marvelMovieID  </td>";
+        echo "<td> $yearReleased </td>";
         echo "<td> $title </td>";
-        echo "<td> $productionStudio </td>";
+
 
         echo "</tr>";
 
