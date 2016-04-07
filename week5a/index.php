@@ -10,7 +10,7 @@
 
 <body>
 
-<a href="http://logok.org/wp-content/uploads/2015/05/Marvel-logo.png">  </a>
+<a href="images/Marvel-logo.png"> LOGO  </a>
 <header>
     <nav>
 
@@ -43,5 +43,6 @@
 <footer class="footer">
     <p> Designed by Wale Patrick(c) </p>
 
-    <a href="http://logok.org/wp-content/uploads/2015/05/Marvel-logo.png">  </a>
+    <a href="images/Marvel-logo.png"> LOGO  </a>
+
 </footer>
