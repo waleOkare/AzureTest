@@ -7,6 +7,7 @@ echo'<br>';
 //$username = $_POST['username'];
 
 // echo'The person username is'.$username;
+
 $access_level = $_COOKIE['access_level'];
 
 displayAccessLevelInformation($access_level);
