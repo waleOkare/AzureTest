@@ -1,15 +1,18 @@
 
 body{
-    max-width: 100%;
+    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
     background-color: mintcream;
 }
+/*
 #maincontent{
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
+*/
+
 /* this is to control the navigation bar */
 header{
     background-color: #066;
