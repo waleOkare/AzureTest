@@ -4,7 +4,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 
 
-if($username =='username' && $password=='password'){
+if($username =='mike' && $password=='mysecretpassword'){
  setcookie('access_level', 'standarduser');
 }
 

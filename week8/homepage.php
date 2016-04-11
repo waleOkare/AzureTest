@@ -4,6 +4,10 @@ echo'<h1>WELCOME!</h1>';
 
 echo'<br>';
 
+$username = $_POST['username'];
+
+
+
 
 function displayAccessLevelInformation($access_level){
     if($access_level == 'standarduser'){
