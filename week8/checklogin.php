@@ -4,8 +4,8 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 
 
-if($username =='mike' && $password=='mysecretpassword'){
- setcookie('access_level', 'standarduser');
+if($username =='username' && $password=='password'){
+ setcookie('access_level_cookie', 'standarduser');
 }
 
 header('location:homepage.php');
