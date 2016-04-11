@@ -26,7 +26,7 @@
     </nav>
 
 </header>
-
+<div id="maincontent">
 <main>
 
     <h1> WELCOME TO MARVELMOVIES DATABASE </h1>
@@ -44,3 +44,4 @@
 
 
 </footer>
+</div>
