@@ -1,9 +1,13 @@
 
 body{
-    max-width: 960px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: mintcream;
+}
+
+main{
+    max-width: 960px;
 }
 /* this is to control the navigation bar */
 header{
