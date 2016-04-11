@@ -6,7 +6,7 @@ echo'<br>';
 
 //$username = $_POST['username'];
 
-
+// echo'The person username is'.$username;
 
 
 function displayAccessLevelInformation($access_level) {
