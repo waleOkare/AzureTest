@@ -4,7 +4,7 @@ echo'<h1>WELCOME!</h1>';
 
 echo'<br>';
 
-
+session_start();
 
 $access_level_session = $_SESSION['access_level_session'];
 
