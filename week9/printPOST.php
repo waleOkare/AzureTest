@@ -2,3 +2,4 @@
 
 
 
+$Title = $_POST['Title'];
