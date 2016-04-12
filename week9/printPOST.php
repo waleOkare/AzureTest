@@ -2,9 +2,9 @@
 
 
 
-$Title = $_GET['Title'];
-$Content = $_GET['Content'];
-$option = $_GET['Option'];
+$Title = $_POST['Title'];
+$Content = $_POST['Content'];
+$option = $_POST['Option'];
 
 
 echo '<article>';
