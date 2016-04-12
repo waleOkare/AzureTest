@@ -13,7 +13,7 @@
 
 $_GET["query"];
 
-print $_GET ;
+print $_GET["query"]  ;
 
 
 ?>
