@@ -3,7 +3,7 @@
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-//All about sessions
+//All about sessions..........
 if($username =='username' && $password=='password') {
 
  session_start();
