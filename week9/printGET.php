@@ -11,7 +11,7 @@
 
 <?php
 
-$Arsenal = $_GET["Arsenal"];
+$Arsenal = $_GET["query"];
 
 print $_GET . $Arsenal;
 
