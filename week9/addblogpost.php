@@ -9,7 +9,7 @@
 if($_SERVER['REQUEST_METHOD']==='GET'){
 
 echo '
-    <form action="printPOST.php" method="get">
+    <form action="printPOST.php" method="post">
     <label>Title</label>  <input type="text" placeholder="Title" name="Title">
     <br>
     <label>Content</label><br>
