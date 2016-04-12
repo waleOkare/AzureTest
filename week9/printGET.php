@@ -13,7 +13,7 @@
 
 $Arsenal = $_GET["Arsenal"];
 
-print $_GET["query"];
+print $_GET . $Arsenal;
 
 
 ?>
