@@ -12,13 +12,13 @@
 <?php
 
 $_GET["query"];
-$_GET["spurs"];
+$_GET["type"];
 
 print $_GET["query"]  ;
 
 echo '<br>';
 
-print $_GET["spurs"];
+print $_GET["type"];
 
 ?>
 
