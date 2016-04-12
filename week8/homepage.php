@@ -6,19 +6,20 @@ echo'<br>';
 
 session_start();
 
-$access_level_session = $_SESSION['access_level_session'];
+$access_level = $_SESSION['access_level'];
 
-displayAccessLevelInformation($access_level_session);
+displayAccessLevelInformation($access_level);
 
-function displayAccessLevelInformation($access_level_session)
+function displayAccessLevelInformation($access_level)
 {
-    if ($access_level_session == "standarduser") {
+    if ($access_level == "standarduser") {
         echo "<p>You are currently logged in as a standard user</p>";
-    } elseif ($access_level_session== "root") {
+    } elseif ($access_level== "root") {
         echo "<p>You are currently logged in as a root user</p>";
         echo "<p>You now have access to additional administrative features</p>";
     }
 }
+
 
 
 
