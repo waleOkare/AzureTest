@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>sendPOST</title>
+    <title>selfREF</title>
 </head>
 <body>
 <?php
@@ -10,7 +10,7 @@ if($_SERVER['REQUEST_METHOD']==='GET'){
 ?>
 
 <form action=" <? {
-$_SERVER['PHP_SELF'] ?> " method="get">
+$_SERVER['PHP_SELF'] ?> " method="post">
     <label>Title</label> <input type="text" placeholder="Title" name="Title">
     <br>
     <label>Content</label><br>
