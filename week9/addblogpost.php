@@ -9,30 +9,30 @@
 if($_SERVER['REQUEST_METHOD']==='GET'){
 ?>
 
-    <form action= " <? {
-    $_SERVER['PHP_SELF'] ?> " method="post">
-        <label>Title</label> <input type="text" placeholder="Title" name="Title">
-        <br>
-        <label>Content</label><br>
-        <textarea rows="2" cols="30" name="Content"> </textarea>
-        <br>
-        <label>Category</label>
+<form action=" <? {
+$_SERVER['PHP_SELF'] ?> " method="post">
+    <label>Title</label> <input type="text" placeholder="Title" name="Title">
+    <br>
+    <label>Content</label><br>
+    <textarea rows="2" cols="30" name="Content"> </textarea>
+    <br>
+    <label>Category</label>
 
-        <select name="Option">
-            <option value="Cat">Cat</option>
-            <option value="dog">dog</option>
-            <option value="misc">Misc</option>
-        </select>
+    <select name="Option">
+        <option value="Cat">Cat</option>
+        <option value="dog">dog</option>
+        <option value="misc">Misc</option>
+    </select>
 
-        <br>
-        <br>
-        <br>
-        <input type="submit" value="Submit">
+    <br>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
 
-        <?
-        }
+    <?
+    }
 
-}elseif($_SERVER['REQUEST_METHOD']==='post'){
+    }elseif($_SERVER['REQUEST_METHOD']==='post'){
 
 
         $Title = $_POST['Title'];
@@ -40,17 +40,13 @@ if($_SERVER['REQUEST_METHOD']==='GET'){
         $option = $_POST['Option'];
 
 
-        echo '<article>';
 
-        echo'<h1>' . $Title . '</h1>';
+
+        print  $Title;
         echo '<br>';
-        echo '<p>'.$Content .'</p>';
+        print $Content ;
         echo '<br>';
-        echo '<strong>'.$option .'</strong>';
-
-
-        echo'</article>';
-
+        print $option ;
 
 
 }
