@@ -10,7 +10,7 @@ if($_SERVER['REQUEST_METHOD']==='GET'){
 ?>
 
 <form action=" <? {
-$_SERVER['PHP_SELF'] ?> " method="post">
+$_SERVER['REQUEST_METHOD'] ?> " method="post">
     <label>Title</label> <input type="text" placeholder="Title" name="Title">
     <br>
     <label>Content</label><br>
