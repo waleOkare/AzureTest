@@ -25,6 +25,7 @@
     </nav>
 
 </header>
+
 <?php
 include ("connection.php");
 

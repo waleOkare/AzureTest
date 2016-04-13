@@ -1,6 +1,6 @@
 <?php
 
-echo'<h1>WELCOME!</h1>';
+echo'<h1> WELCOME!</h1>';
 
 echo'<br>';
 
