@@ -9,8 +9,8 @@
 if($_SERVER['REQUEST_METHOD']==='GET'){
 ?>
 
-<form action=" <? {
-$_SERVER['PHP_SELF'] ?> " method="post">
+<form action=" <?php $_SERVER['PHP_SELF'];?>" method ="post">
+
     <label>Title</label> <input type="text" placeholder="Title" name="Title">
     <br>
     <label>Content</label><br>
@@ -30,7 +30,7 @@ $_SERVER['PHP_SELF'] ?> " method="post">
     <input type="submit" value="Submit">
 
     <?
-    }
+
 
     }elseif($_SERVER['REQUEST_METHOD']==='post'){
 
