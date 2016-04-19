@@ -1,0 +1,52 @@
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: mintcream;
+}
+
+header{
+    background-color: #066;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: auto;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 10px 0 8px 10px;
+    text-decoration: none;
+}
+
+p{
+     margin-left: 15%;
+     margin-right: 0%;
+
+ }
+
+
+
+footer>p{
+    text-align: center;
+    color:wheat;
+}
+.footer{
+    background-color:  #066;
+
+    height: 150px;
+    clear: both;
+    /*  width: 100%; */
+}
+
+#logo{
+    width: 100px;
+    float: left;
+}
