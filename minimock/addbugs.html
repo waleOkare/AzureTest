@@ -2,25 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> AddBug Page</title>
+    <title>Mock Lab</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href=unsemantic-grid-responsive-tablet.css>
+
 </head>
+
 <body>
+<main class="grid-container">
 
-<main></
+    <header class="grid-100">
+        <img src="logo.png" id="logo"/>
 
-<form action="#" method="post">
-    <label>Bug Name</label>  <input type="text"name="BugName">
-    <br>
-    <label> Bug Summary </label><textarea rows="7" cols="50"> </textarea>
-    <br>
-    <label> Bug Category </label> <input type="text"  name="BugCategory">
-    <br>
-    <input type="submit" value="Submit">
+        <h1 style="color: wheat"><strong> BugTracker </strong></h1>
 
-</form>
+        <h3 style="color: wheat">Keeping track of all the pesky little bugs </h3>
+    </header>
 
 
-main>
+    <aside class="grid-33 mobile-grid-66">
+        <nav>
+            <ul>
+                <li><a href="bug.html"> All Bug Items </a></li>
+                <li><a href="bug.html"> Android Bugs </a></li>
+                <li><a href="bug.html"> iOS Bugs </a></li>
+                <li><a href="bug.html"> Windows Bugs </a></li>
+                <li><a href="bug.html"> Insert Bug </a></li>
+            </ul>
+        </nav>
+    </aside>
+
+
+
+
+    <section class="grid-66 mobile-grid-66">
+
+
+        <form action="#" method="post">
+            <label>Bug Name</label>  <input type="text" placeholder="Bug Name" name="BugName">
+            <br>
+            <br>
+            <label> Bug Summary </label> <textarea rows="4" cols="50" name="BugSummary"> </textarea>
+            <br>
+            <br>
+            <label> Bug Category </label>
+            <select name="Option">
+                <option value="Android">Android</option>
+                <option value="iOS">iOS</option>
+                <option value="Windows">Windows</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+
+        </form>
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+</main>
+
+
+
+
+<footer class="footer">
+    <p> Designed by Wale Patrick 2016(c) </p>
+</footer>
 
 </body>
 </html>

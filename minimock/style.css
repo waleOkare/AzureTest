@@ -23,6 +23,13 @@ li a {
     padding: 10px 0 8px 10px;
     text-decoration: none;
 }
+input[type=text] {
+    width: 70%;
+    padding: 15px 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+}
+
 
 
 
