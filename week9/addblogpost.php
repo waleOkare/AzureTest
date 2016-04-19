@@ -9,7 +9,7 @@
 if($_SERVER['REQUEST_METHOD']==='GET'){
 ?>
 
-<form action=" <?php echo $_SERVER['PHP_SELF']; ?>" method ="get">
+<form action=" <?php echo $_SERVER['PHP_SELF']; ?>" method ="post">
 
     <label>Title</label> <input type="text" placeholder="Title" name="Title">
     <br>
