@@ -32,7 +32,7 @@ if($_SERVER['REQUEST_METHOD']==='GET'){
     <?
 
 
-    }elseif($_SERVER['REQUEST_METHOD']==='post'){
+    }elseif($_SERVER['REQUEST_METHOD']==='POST'){
 
 
         $Title = $_POST['Title'];
@@ -42,11 +42,11 @@ if($_SERVER['REQUEST_METHOD']==='GET'){
 
 
 
-        print  $Title;
+        echo  $Title;
         echo '<br>';
-        print $Content ;
+        echo $Content ;
         echo '<br>';
-        print $option ;
+        echo $option ;
 
 
 }
