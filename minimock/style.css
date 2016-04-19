@@ -14,8 +14,6 @@ ul {
     margin: 0;
     padding: 0;
     background-color: #f1f1f1;
-    position: absolute;
-    height: auto;
     overflow: auto;
 }
 
@@ -26,11 +24,7 @@ li a {
     text-decoration: none;
 }
 
-p{
-     margin-left: 15%;
-     margin-right: 0%;
 
- }
 
 
 
