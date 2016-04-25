@@ -77,7 +77,7 @@
 
 
             $bug_SQLinsert = "INSERT INTO bugs (bugName,BugCategory,BugSummary)
-            VALUES ('$bugName', '$BugCategory', '$BugSummary');";
+                              VALUES ('$bugName', '$BugCategory', '$BugSummary');";
 
 
             if (mysqli_query($db, $bug_SQLinsert)) {
