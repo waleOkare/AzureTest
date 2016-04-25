@@ -37,8 +37,11 @@ input[type=text] {
     box-sizing: border-box;
 }
 
-h1,h3,h4{
+h1,h3{
     color: greenyellow;
+}
+h4{
+    color: darkgreen;
 }
 
 input[type=submit]{
