@@ -49,7 +49,6 @@
             <br>
             <label> Bug Summary </label> <textarea rows="8" cols="50" name="BugSummary" required> </textarea>
             <br>
-            <br>
             <label> Bug Category </label>
             <select name="Option" required>
                 <option value="Android">Android</option>
