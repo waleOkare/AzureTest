@@ -53,9 +53,9 @@
             $BugSummary =  $row['BugSummary'];
 
 
-                  echo ' <h4><strong>Bug Name </strong> </h4>' . $bugName = $_GET['bugName']  || $bugName. '<br>';
-                  echo '<h4><strong> Bug Category </strong> </h4>' . $BugCategory= $_GET['BugCategory']  || $BugCategory.  '<br>';
-                  echo '<h4><strong>Bug Summary </h4></strong>' . $BugSummary= $_GET['BugSummary']  || $BugSummary. '<br>';
+                  echo ' <h4><strong>Bug Name </strong> </h4>' .  $bugName. '<br>';
+                  echo '<h4><strong> Bug Category </strong> </h4>' . $BugCategory.  '<br>';
+                  echo '<h4><strong>Bug Summary </h4></strong>' .  $BugSummary. '<br>';
 
 
 
