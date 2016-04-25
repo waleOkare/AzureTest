@@ -63,6 +63,13 @@
             <input type="submit" value="Submit">
 
         </form>
+            <?php
+            $bugName = $_GET['bugName'];
+            $BugCategory = $_GET['BugCategory'];
+            $BugSummary = $_GET['BugSummary'];
+
+            header("location:addbugs.php");
+            ?>
 
 <?
         }elseif($_SERVER['REQUEST_METHOD']==='POST') {
