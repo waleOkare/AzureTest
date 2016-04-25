@@ -41,6 +41,9 @@ h1,h3{
     color: greenyellow;
 }
 
+input[type=submit]{
+    float: right;
+}
 
 
 
