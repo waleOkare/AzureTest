@@ -66,11 +66,12 @@
 
 
             $bugName = $_POST['bugName'];
-            $BugSummary = $_POST['BugSummary'];
             $BugCategory = $_POST['BugCategory'];
+            $BugSummary = $_POST['BugSummary'];
 
-            $bug_SQLinsert = "INSERT INTO bugs (bugName,BugSummary,BugCategory)
-            VALUES ('$bugName', '$BugSummary', '$BugCategory');";
+
+            $bug_SQLinsert = "INSERT INTO bugs (bugName,BugCategory,BugSummary)
+            VALUES ('$bugName', '$BugCategory', '$BugSummary');";
 
 
             if (mysqli_query($db, $bug_SQLinsert)) {
