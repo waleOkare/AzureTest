@@ -33,7 +33,9 @@
         </nav>
     </aside>
 
-
+    <?php
+    include ("dbConnect.php");
+    ?>
 
 
     <section class="grid-66 mobile-grid-66">
