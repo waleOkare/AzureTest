@@ -39,9 +39,10 @@
                     $bugName = $row['bugName'];
                     $BugCategory = $row['BugCategory'];
                     $BugSummary = $row['BugSummary'];
-                    $indx++;
 
-                    echo " <li><a href='showbugs.php?BugCategory=Android&bugName={$bugName}'> Android Bugs </a></li> ";
+
+                    echo " <li><a href='showbugs.php?BugCategory={$BugCategory}&bugName={$bugName}'> Android Bugs </a></li> ";
+                    $indx++;
                 }
                 ?>
                 <li><a href="showbugs.php"> iOS Bugs </a></li>
