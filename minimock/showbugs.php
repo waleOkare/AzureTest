@@ -58,15 +58,8 @@
 
                  echo ' <hr>';
 
-            echo ' <h4><strong>Bug Name </strong> </h4>' . $indx. " ". $bugName . '<br>';
-            echo '<h4> Bug Category </h4> <br>' . $BugSummary . '<br>';
-            echo '<h4>Bug Summary </h4>' . $BugCategory . '<br>';
 
-            echo ' <hr>';
 
-            echo ' <h4><strong>Bug Name </strong> </h4>' . $indx. " ". $bugName . '<br>';
-            echo '<h4> Bug Category </h4> <br>' . $BugSummary . '<br>';
-            echo '<h4>Bug Summary </h4>' . $BugCategory . '<br>';
 
             $indx++;
         }
