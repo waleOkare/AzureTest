@@ -64,9 +64,7 @@
 
         </form>
             <?php
-            $bugName = $_GET['bugName'];
-            $BugCategory = $_GET['BugCategory'];
-            $BugSummary = $_GET['BugSummary'];
+
 
 
         }elseif($_SERVER['REQUEST_METHOD']==='POST') {
