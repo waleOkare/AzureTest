@@ -69,11 +69,6 @@
             $BugSummary = $_GET['BugSummary'];
 
 
-            $bug_SQLinsert = "INSERT INTO bugs (bugName,BugCategory,BugSummary)
-            VALUES ('$bugName', '$BugCategory', '$BugSummary');";
-            ?>
-
-<?
         }elseif($_SERVER['REQUEST_METHOD']==='POST') {
 
 
