@@ -49,6 +49,7 @@
             <br>
                 <label> Bug Category </label>
                 <select name="BugCategory" required>
+
                     <option value="Android">Android</option>
                     <option value="iOS">iOS</option>
                     <option value="Windows">Windows</option>
