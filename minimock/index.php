@@ -35,13 +35,14 @@
                 $bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);
 
                 $indx = 1;
-                while($row = mysqli_fetch_array($bugs_SQLselect_Query, MYSQLI_ASSOC)){
-                $bugName = $row['bugName'];
-                $BugCategory = $row['BugCategory'];
-                $BugSummary =  $row['BugSummary'];
+                while($row = mysqli_fetch_array($bugs_SQLselect_Query, MYSQLI_ASSOC)) {
+                    $bugName = $row['bugName'];
+                    $BugCategory = $row['BugCategory'];
+                    $BugSummary = $row['BugSummary'];
+                    $indx++;
 
-
-              echo " <li><a href='showbugs.php?BugCategory=Android&bugName={$bugName}'> Android Bugs </a></li> ";
+                    echo " <li><a href='showbugs.php?BugCategory=Android&bugName={$bugName}'> Android Bugs </a></li> ";
+                }
                 ?>
                 <li><a href="showbugs.php"> iOS Bugs </a></li>
                 <li><a href="addbugs.php"> Windows Bugs </a></li>
