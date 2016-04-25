@@ -26,8 +26,12 @@
             <ul>
 
                 <li><a href="showbugs.php"> All Bug Items </a></li>
+                <?php
+                include ("dbConnect.php");
 
-                <li><a href='showbugs.php?BugCategory=Android'> Android Bugs </a></li>
+
+              echo " <li><a href='showbugs.php?BugCategory=Android&bugName={$bugName}'> Android Bugs </a></li> ";
+                ?>
                 <li><a href="showbugs.php"> iOS Bugs </a></li>
                 <li><a href="addbugs.php"> Windows Bugs </a></li>
                 <li><a href="addbugs.php"> Insert Bug </a></li>
