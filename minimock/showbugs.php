@@ -39,12 +39,9 @@
 
     <section class="grid-66 mobile-grid-66">
         <?php
-        $BugCategory = $_GET['BugCategory'];
 
         $bugs_SQLselect = "SELECT *
-                           FROM bugs
-                           WHERE BugCategory = '$BugCategory'
-                           ";
+                           FROM bugs";
 
         $bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);
 
@@ -54,15 +51,10 @@
             $BugCategory = $row['BugCategory'];
             $BugSummary =  $row['BugSummary'];
 
-    $bugName = $_GET['bugName'];
-    $BugCategory = $_GET['BugCategory'];
-    $BugSummary= $_GET['BugSummary'];
 
-
-    echo ' <h4><strong>Bug Name </strong> </h4>' .  $bugName = $_GET['bugName']. '<br>';
-    echo '<h4><strong> Bug Category </strong> </h4>' .  $BugCategory = $_GET['BugCategory'].  '<br>';
-    echo '<h4><strong>Bug Summary </h4></strong>' .  $BugSummary= $_GET['BugSummary']. '<br>';
-
+                  echo ' <h4><strong>Bug Name </strong> </h4>' .  $bugName. '<br>';
+                  echo '<h4><strong> Bug Category </strong> </h4>' . $BugCategory.  '<br>';
+                  echo '<h4><strong>Bug Summary </h4></strong>' .  $BugSummary. '<br>';
 
 
 
@@ -71,7 +63,7 @@
 
 
 
-           // $indx++;
+            $indx++;
         }
         mysqli_free_result($bugs_SQLselect_Query);
         ?>
