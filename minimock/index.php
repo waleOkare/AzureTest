@@ -30,7 +30,9 @@
                 include ("dbConnect.php");
 
                 $bugs_SQLselect = "SELECT *
-                                   FROM bugs";
+                                   FROM bugs
+                                   WHERE BugCategory = 'Android Bug'
+                                   ";
 
                 $bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);
 
@@ -41,7 +43,7 @@
                     $BugSummary = $row['BugSummary'];
 
 
-                    echo " <li><a href='showbugs.php?BugCategory=Andriod' >Android Bugs </a></li> ";
+                    echo " <li><a href='showbugs.php?BugCategory=Andriod Bug' >Android Bugs </a></li> ";
                   //  $indx++;
                 }
                 ?>
