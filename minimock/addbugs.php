@@ -68,7 +68,6 @@
             $BugCategory = $_GET['BugCategory'];
             $BugSummary = $_GET['BugSummary'];
 
-            header("location:addbugs.php");
             ?>
 
 <?
