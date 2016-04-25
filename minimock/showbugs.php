@@ -37,20 +37,43 @@
     include ("dbConnect.php");
     ?>
 
-
     <section class="grid-66 mobile-grid-66">
+        <?php
+
+        $bugs_SQLselect = "SELECT *
+                           FROM bugs";
+
+        $bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);
+
+        $indx = 1;
+        while($row = mysqli_fetch_array($bugs_SQLselect_Query, MYSQLI_ASSOC)){
+
+            $bugName = $row['bugName'];
+            $BugSummary =  $row['BugSummary'];
+            $BugCategory = $row['BugCategory'];
+
+                  echo ' <h4><strong>Bug Name </strong> </h4>' . $indx. " ". $bugName . '<br>';
+                  echo '<h4> Bug Category </h4> <br>' . $BugSummary . '<br>';
+                  echo '<h4>Bug Summary </h4>' . $BugCategory . '<br>';
+
+                 echo ' <hr>';
+
+            echo ' <h4><strong>Bug Name </strong> </h4>' . $indx. " ". $bugName . '<br>';
+            echo '<h4> Bug Category </h4> <br>' . $BugSummary . '<br>';
+            echo '<h4>Bug Summary </h4>' . $BugCategory . '<br>';
+
+            echo ' <hr>';
+
+            echo ' <h4><strong>Bug Name </strong> </h4>' . $indx. " ". $bugName . '<br>';
+            echo '<h4> Bug Category </h4> <br>' . $BugSummary . '<br>';
+            echo '<h4>Bug Summary </h4>' . $BugCategory . '<br>';
+
+            $indx++;
+        }
+        mysqli_free_result($bugs_SQLselect_Query);
+        ?>
 
 
-
-        <h4><strong>Bug Name </strong> </h4>
-        <h4> Bug Category </h4> <br>
-        <h4>Bug Summary </h4>
-
-        <hr>
-
-        <h4><strong>Bug Name </strong> </h4>
-        <h4> Bug Category </h4> <br>
-        <h4>Bug Summary </h4>
 
 
 
