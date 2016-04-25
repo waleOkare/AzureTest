@@ -47,10 +47,21 @@
 
         $indx = 1;
         while($row = mysqli_fetch_array($bugs_SQLselect_Query, MYSQLI_ASSOC)){
-
             $bugName = $row['bugName'];
             $BugCategory = $row['BugCategory'];
             $BugSummary =  $row['BugSummary'];
+if(isset($_GET)){
+    $bugName = $_GET['bugName'];
+    $BugCategory = $_GET['BugCategory'];
+    $BugSummary =$_GET['BugSummary'];
+
+
+    echo ' <h4><strong>Bug Name </strong> </h4>' .  $bugName. '<br>';
+    echo '<h4><strong> Bug Category </strong> </h4>' . $BugCategory.  '<br>';
+    echo '<h4><strong>Bug Summary </h4></strong>' .  $BugSummary. '<br>';
+
+}else
+
 
 
                   echo ' <h4><strong>Bug Name </strong> </h4>' .  $bugName. '<br>';
