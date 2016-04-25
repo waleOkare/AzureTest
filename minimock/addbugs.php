@@ -38,7 +38,10 @@
 
 
     <section class="grid-66 mobile-grid-66">
-
+        <?php
+        include ("dbConnect.php");
+        if($_SERVER['REQUEST_METHOD']==='GET'){
+            ?>
 
         <form action="#" method="post">
             <label>Bug Name</label>  <input type="text" name="BugName" required>
@@ -59,11 +62,17 @@
 
         </form>
 
+<?
+        }elseif($_SERVER['REQUEST_METHOD']==='POST'){
+
+
+        }
 
 
 
 
 
+?>
 
 
     </section>
