@@ -68,6 +68,9 @@
             $BugCategory = $_GET['BugCategory'];
             $BugSummary = $_GET['BugSummary'];
 
+
+            $bug_SQLinsert = "INSERT INTO bugs (bugName,BugCategory,BugSummary)
+            VALUES ('$bugName', '$BugCategory', '$BugSummary');";
             ?>
 
 <?
