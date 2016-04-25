@@ -43,7 +43,7 @@
                     $BugSummary = $row['BugSummary'];
 
 
-                    echo " <li><a href='showbugs.php?BugCategory=Andriod Bug' >Android Bugs </a></li> ";
+                    echo " <li><a href='showbugs.php?BugCategory=Andriod%Bug' >Android Bugs </a></li> ";
                   //  $indx++;
                 }
                 ?>
