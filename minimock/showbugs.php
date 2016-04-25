@@ -53,8 +53,9 @@
             $BugCategory = $row['BugCategory'];
 
                   echo ' <h4><strong>Bug Name </strong> </h4>' . $bugName . '<br>';
-                  echo '<h4><strong> Bug Category </strong> </h4>' . $BugSummary . '<br>';
                   echo '<h4><strong>Bug Summary </h4></strong>' . $BugCategory . '<br>';
+                  echo '<h4><strong> Bug Category </strong> </h4>' . $BugSummary . '<br>';
+
 
                  echo ' <hr>';
 
