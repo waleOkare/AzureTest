@@ -49,12 +49,14 @@
         while($row = mysqli_fetch_array($bugs_SQLselect_Query, MYSQLI_ASSOC)){
 
             $bugName = $row['bugName'];
-            $BugSummary =  $row['BugSummary'];
             $BugCategory = $row['BugCategory'];
+            $BugSummary =  $row['BugSummary'];
+
 
                   echo ' <h4><strong>Bug Name </strong> </h4>' . $bugName . '<br>';
-                  echo '<h4><strong>Bug Summary </h4></strong>' . $BugCategory . '<br>';
-                  echo '<h4><strong> Bug Category </strong> </h4>' . $BugSummary . '<br>';
+                  echo '<h4><strong> Bug Category </strong> </h4>' . $BugCategory . '<br>';
+                  echo '<h4><strong>Bug Summary </h4></strong>' . $BugSummary . '<br>';
+
 
 
                  echo ' <hr>';
