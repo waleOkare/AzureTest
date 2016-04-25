@@ -29,6 +29,17 @@
                 <?php
                 include ("dbConnect.php");
 
+                $bugs_SQLselect = "SELECT *
+                           FROM bugs";
+
+                $bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);
+
+                $indx = 1;
+                while($row = mysqli_fetch_array($bugs_SQLselect_Query, MYSQLI_ASSOC)){
+                $bugName = $row['bugName'];
+                $BugCategory = $row['BugCategory'];
+                $BugSummary =  $row['BugSummary'];
+
 
               echo " <li><a href='showbugs.php?BugCategory=Android&bugName={$bugName}'> Android Bugs </a></li> ";
                 ?>
