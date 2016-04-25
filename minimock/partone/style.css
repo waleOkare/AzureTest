@@ -30,11 +30,13 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 input[type=text] {
-    width: 70%;
-    padding: 15px 20px;
+    width: 65%;
+    padding-left: 20px;
+   // padding: 15px 20px;
     margin: 15px 0;
     box-sizing: border-box;
 }
+
 h1,h3{
     color: greenyellow;
 }
