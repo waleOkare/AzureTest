@@ -43,7 +43,7 @@
         if($_SERVER['REQUEST_METHOD']==='GET'){
             ?>
 
-            <form action=" <?php echo $_SERVER['PHP_SELF']; ?>" method ="get">
+            <form action=" <?php echo $_SERVER['PHP_SELF']; ?>" method ="post">
             <label>Bug Name</label><input type="text" name="bugName" required>
             <br>
             <br>
