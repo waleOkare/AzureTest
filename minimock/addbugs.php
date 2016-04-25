@@ -24,11 +24,11 @@
         <nav>
             <ul>
 
-                <li><a href="showbugs.html"> All Bug Items </a></li>
-                <li><a href="showbugs.html"> Android Bugs </a></li>
-                <li><a href="showbugs.html"> iOS Bugs </a></li>
-                <li><a href="addbugs.html"> Windows Bugs </a></li>
-                <li><a href="addbugs.html"> Insert Bug </a></li>
+                <li><a href="showbugs.php"> All Bug Items </a></li>
+                <li><a href="showbugs.php"> Android Bugs </a></li>
+                <li><a href="showbugs.php"> iOS Bugs </a></li>
+                <li><a href="addbugs.php"> Windows Bugs </a></li>
+                <li><a href="addbugs.php"> Insert Bug </a></li>
             </ul>
         </nav>
     </aside>
@@ -43,8 +43,8 @@
         if($_SERVER['REQUEST_METHOD']==='GET'){
             ?>
 
-        <form action="#" method="post">
-            <label>Bug Name</label>  <input type="text" name="BugName" required>
+            <form action=" <?php echo $_SERVER['PHP_SELF']; ?>" method ="post">
+            <label>Bug Name</label><input type="text" name="BugName" required>
             <br>
             <br>
             <label> Bug Summary </label> <textarea rows="8" cols="50" name="BugSummary" required> </textarea>
@@ -63,11 +63,28 @@
         </form>
 
 <?
-        }elseif($_SERVER['REQUEST_METHOD']==='POST'){
+        }elseif($_SERVER['REQUEST_METHOD']==='POST') {
 
 
+            $bugName = $_POST['bugName'];
+            $BugSummary = $_POST['BugSummary'];
+            $BugCategory = $_POST['BugCategory'];
+
+            $bug_SQLinsert = "INSERT INTO bugs (bugName,BugSummary,BugCategory)
+            VALUES ('$bugName', '$BugSummary', '$BugCategory');";
+
+
+            if (mysqli_query($db, $bug_SQLinsert)) {
+
+                header("location:showbugs.php");
+            } else {
+                echo "Failed to add new bug";
+
+            }
         }
-
+       else{
+           ("location:index.php");
+       }
 
 
 
