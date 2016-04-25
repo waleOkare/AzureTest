@@ -12,7 +12,7 @@
 <main class="grid-container">
 
     <header class="grid-100">
-        <img src="logo.png" id="logo"/>
+        <img src="partone/logo.png" id="logo"/>
 
         <h1 style="color: wheat"><strong> BugTracker </strong></h1>
 
@@ -23,12 +23,12 @@
     <aside class="grid-33 mobile-grid-66">
         <nav>
             <ul>
-                <li><a href="showbugs.html"> Add Bugs </a></li>
-                <li><a href="showbugs.html"> All Bug Items </a></li>
-                <li><a href="showbugs.html"> Android Bugs </a></li>
-                <li><a href="showbugs.html"> iOS Bugs </a></li>
-                <li><a href="addbugs.html"> Windows Bugs </a></li>
-                <li><a href="addbugs.html"> Insert Bug </a></li>
+                <li><a href="partone/showbugs.html"> Add Bugs </a></li>
+                <li><a href="partone/showbugs.html"> All Bug Items </a></li>
+                <li><a href="partone/showbugs.html"> Android Bugs </a></li>
+                <li><a href="partone/showbugs.html"> iOS Bugs </a></li>
+                <li><a href="partone/addbugs.html"> Windows Bugs </a></li>
+                <li><a href="partone/addbugs.html"> Insert Bug </a></li>
             </ul>
         </nav>
     </aside>

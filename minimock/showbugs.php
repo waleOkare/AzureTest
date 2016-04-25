@@ -11,7 +11,7 @@
 <main class="grid-container">
 
     <header class="grid-100">
-        <img src="logo.png" id="logo"/>
+        <img src="partone/logo.png" id="logo"/>
 
         <h1 style="color: wheat"><strong> BugTracker </strong></h1>
 
