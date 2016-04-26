@@ -75,6 +75,9 @@ input[type=submit]{
     float: right;
 }
 
+#bugname{
+    padding-left: 20px;
+}
 
 
 

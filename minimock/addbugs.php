@@ -44,20 +44,21 @@
 
             <form action=" <?php echo $_SERVER['PHP_SELF']; ?>" method ="post">
 
-            <label>Bug Name</label><input type="text" name="bugName" required>
+            <label>Bug Name <input id="bugname" type="text" name="bugName" required></label>
             <br>
             <br>
-                <label> Bug Category </label>
+                <label> Bug Category
                 <select name="BugCategory" required>
 
                     <option value="Android ">Android</option>
                     <option value="iOS">iOS</option>
                     <option value="Windows">Windows</option>
                 </select>
+                </label>
                 <br>
                 <br>
 
-            <label> Bug Summary </label> <textarea rows="8" cols="50" name="BugSummary" required> </textarea>
+            <label> Bug Summary  <textarea rows="8" cols="50" name="BugSummary" required> </textarea> </label>
             <br>
 
             <input type="submit" value="Submit">
