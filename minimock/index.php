@@ -11,12 +11,14 @@
 <body>
 
 <main class="grid-container">
-    <div id="header" >
-    <img src="partone/logo.png" id="logo"/>
-    </div>
+
 
     <header class="grid-100">
+        <div id="header" >
 
+            <img src="partone/logo.png" id="logo"/>
+
+        </div>
 
 
     <h1><strong> BugTracker </strong></h1>
