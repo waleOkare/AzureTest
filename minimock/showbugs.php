@@ -23,7 +23,8 @@
             $bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);
             while($row = mysqli_fetch_array($bugs_SQLselect_Query, MYSQLI_ASSOC )) {
                 $BugCategory = $row['BugCategory'];
-                echo "<h3> Keeping track of all the pesky little bugs <br> You are in the {$BugCategory} category  </h3>";
+                echo "<h3> Keeping track of all the pesky little bugs <br> </h3>";
+                echo "<p align='center'id='p'>  You are in the {$BugCategory} category  </p>";
 
             }
 
@@ -74,24 +75,18 @@
 }
         $bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);
 
-        $indx = 1;
-        while($row = mysqli_fetch_array($bugs_SQLselect_Query, MYSQLI_ASSOC)){
-            $bugName = $row['bugName'];
-            $BugCategory = $row['BugCategory'];
-            $BugSummary =  $row['BugSummary'];
-
-
+             $indx = 1;
+             while($row = mysqli_fetch_array($bugs_SQLselect_Query, MYSQLI_ASSOC)){
+             $bugName = $row['bugName'];
+             $BugCategory = $row['BugCategory'];
+             $BugSummary =  $row['BugSummary'];
 
                   echo ' <h4><strong>Bug Name </strong> </h4>' .  $bugName. '<br>';
                   echo '<h4><strong> Bug Category </strong> </h4>' . $BugCategory.  '<br>';
                   echo '<h4><strong>Bug Summary </h4></strong>' .  $BugSummary. '<br>';
+                  echo ' <hr>';
 
-                 echo ' <hr>';
-
-
-
-
-            $indx++;
+             $indx++;
         }
         mysqli_free_result($bugs_SQLselect_Query);
         ?>
