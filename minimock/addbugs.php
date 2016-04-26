@@ -19,15 +19,14 @@
         <h3> Keeping track of all the pesky little bugs </h3>
     </header>
 
-
     <aside class="grid-33 mobile-grid-66">
         <nav>
             <ul>
 
                 <li><a href="showbugs.php"> All Bug Items </a></li>
                 <li><a href="showbugs.php?BugCategory=Android"> Android Bugs </a></li>
-                <li><a href="showbugs.php"> iOS Bugs </a></li>
-                <li><a href="showbugs.php"> Windows Bugs </a></li>
+                <li><a href="showbugs.php?BugCategory=iOS"> iOS Bugs </a></li>
+                <li><a href="showbugs.php?BugCategory=Windows"> Windows Bugs </a></li>
                 <li><a href="addbugs.php"> Insert Bug </a></li>
             </ul>
         </nav>

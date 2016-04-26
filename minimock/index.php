@@ -14,7 +14,7 @@
 
 
     <header class="grid-100">
-        <img src="partone/logo.png"/>
+        <a href="index.php"> <img src="partone/logo.png" id="logo"/> </a>
 
     <h1><strong> BugTracker </strong></h1>
 
@@ -29,8 +29,8 @@
 
                 <li><a href="showbugs.php"> All Bug Items </a></li>
                 <li><a href="showbugs.php?BugCategory=Android"> Android Bugs </a></li>
-                <li><a href="showbugs.php"> iOS Bugs </a></li>
-                <li><a href="showbugs.php"> Windows Bugs </a></li>
+                <li><a href="showbugs.php?BugCategory=iOS"> iOS Bugs </a></li>
+                <li><a href="showbugs.php?BugCategory=Windows"> Windows Bugs </a></li>
                 <li><a href="addbugs.php"> Insert Bug </a></li>
             </ul>
         </nav>

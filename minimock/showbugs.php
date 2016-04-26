@@ -45,8 +45,8 @@
 
                 <li><a href="showbugs.php"> All Bug Items </a></li>
                 <li><a href="showbugs.php?BugCategory=Android"> Android Bugs </a></li>
-                <li><a href="showbugs.php"> iOS Bugs </a></li>
-                <li><a href="showbugs.php"> Windows Bugs </a></li>
+                <li><a href="showbugs.php?BugCategory=iOS"> iOS Bugs </a></li>
+                <li><a href="showbugs.php?BugCategory=Windows"> Windows Bugs </a></li>
                 <li><a href="addbugs.php"> Insert Bug </a></li>
             </ul>
         </nav>
@@ -58,21 +58,18 @@
     ?>
 
     <section class="grid-66 mobile-grid-66">
+
         <?php
     $BugCategory = $_GET['BugCategory'];
-   // print $BugCategory;
 
   if(isset($_GET['BugCategory'])){
 
-    $bugs_SQLselect = "    SELECT *
-                           FROM bugs
-                           WHERE BugCategory = '$BugCategory'
-                           ";
+                $bugs_SQLselect = "    SELECT * FROM bugs WHERE BugCategory = '$BugCategory' ";
 
 }else{
-    $bugs_SQLselect = "    SELECT *
-                           FROM bugs
-                           ";
+                $bugs_SQLselect = "    SELECT * FROM bugs ";
+
+
 
 }
         $bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);
