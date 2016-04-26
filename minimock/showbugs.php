@@ -17,6 +17,7 @@
         <h3> Keeping track of all the pesky little bugs <br> </h3>
 
         <?
+        $BugCategory =$_GET['BugCategory'];
         if(isset($_GET['BugCategory'])){
             $BugCategory =$_GET['BugCategory'];
             $bugs_SQLselect = " SELECT * FROM bugs WHERE BugCategory = '$BugCategory' ";
