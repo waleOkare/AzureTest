@@ -35,16 +35,25 @@
 
     <?php
     include ("dbConnect.php");
+
     ?>
 
     <section class="grid-66 mobile-grid-66">
         <?php
-        $BugCategory = $_GET['BugCategory'];
-        $bugs_SQLselect = "SELECT *
+    //$BugCategory = $_GET['BugCategory'];
+
+if($_GET['BugCategory']) {
+
+    $bugs_SQLselect = "    SELECT *
                            FROM bugs
                            WHERE BugCategory = '$BugCategory'
                            ";
+}else{
+    $bugs_SQLselect = "    SELECT *
+                           FROM bugs
+                           ";
 
+}
         $bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);
 
         $indx = 1;
