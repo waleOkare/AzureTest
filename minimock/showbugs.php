@@ -23,7 +23,7 @@
             $bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);
             while($row = mysqli_fetch_array($bugs_SQLselect_Query, MYSQLI_ASSOC )) {
                 $BugCategory = $row['BugCategory'];
-                echo "  <h3> Keeping track of all the pesky little bugs <br> You are in the {$BugCategory} category  </h3>";
+                echo "<h3> Keeping track of all the pesky little bugs <br> You are in the {$BugCategory} category  </h3>";
 
             }
 
