@@ -1,15 +1,28 @@
-body{
+*{
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
     background-color: mintcream;
 }
 
-header{
+header h1{
     background-color: #066;
-
     padding-left: 5px;
+    clear: both;
 }
+
+header img{
+    width: 120px;
+    float: left;
+    margin-right: 10px;
+
+}
+header h3{
+    padding-top: 10px;
+    padding-bottom: -3px;
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -29,10 +42,7 @@ li a:hover, .dropdown:hover .dropbtn {
     background-color:greenyellow;
 
 }
-#header{
-    align-items:center;
 
-}
 
 input[type=text] {
     width: 65%;
