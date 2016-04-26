@@ -11,7 +11,7 @@
 <main class="grid-container">
 
     <header class="grid-100">
-        <img src="partone/logo.png" id="logo"/>
+    <a href="index.php"> <img src="partone/logo.png" id="logo"/> </a>
 
         <h1> <strong> BugTracker </strong></h1>
 

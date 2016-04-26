@@ -55,9 +55,13 @@ li a:hover, .dropdown:hover .dropbtn {
 
 }
 
-h1,h3,p{
+h1,h3{
     color: greenyellow;
 }
+p{
+    color: darkred;
+}
+
 h4{
     color: darkgreen;
 }
