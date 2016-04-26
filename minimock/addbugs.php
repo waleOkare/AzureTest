@@ -49,7 +49,7 @@
             <br>
                 <label> Bug Category
                 <select name="BugCategory" required>
-
+                    <option value=" " selected disabled>Select </option>
                     <option value="Android ">Android</option>
                     <option value="iOS">iOS</option>
                     <option value="Windows">Windows</option>
