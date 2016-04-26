@@ -14,10 +14,13 @@
 
     <header class="grid-100">
         <img src="partone/logo.png" id="logo"/>
+     <div id="header">
+    <h1><strong> BugTracker </strong></h1>
 
-        <h1><strong> BugTracker </strong></h1>
+    <h3> Keeping track of all the pesky little bugs  </h3>
 
-        <h3> Keeping track of all the pesky little bugs  </h3>
+</div>
+
     </header>
 
 

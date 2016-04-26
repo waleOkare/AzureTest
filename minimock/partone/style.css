@@ -28,6 +28,9 @@ li a:hover, .dropdown:hover .dropbtn {
     background-color:greenyellow;
 
 }
+#header{
+    margin-left: 20px;
+}
 
 input[type=text] {
     width: 65%;
