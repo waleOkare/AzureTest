@@ -31,7 +31,7 @@
 
                 $bugs_SQLselect = "SELECT *
                                    FROM bugs
-                                   WHERE BugCategory = 'Android '
+                                   WHERE BugCategory = 'Android'
                                    ";
 
                 $bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);

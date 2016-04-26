@@ -39,9 +39,11 @@
 
     <section class="grid-66 mobile-grid-66">
         <?php
-
+        $BugCategory = $_GET['BugCategory'];
         $bugs_SQLselect = "SELECT *
-                           FROM bugs";
+                           FROM bugs
+                           WHERE BugCategory = '$BugCategory'
+                           ";
 
         $bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);
 
@@ -50,6 +52,7 @@
             $bugName = $row['bugName'];
             $BugCategory = $row['BugCategory'];
             $BugSummary =  $row['BugSummary'];
+
 
 
                   echo ' <h4><strong>Bug Name </strong> </h4>' .  $bugName. '<br>';
