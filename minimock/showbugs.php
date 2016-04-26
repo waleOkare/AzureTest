@@ -27,7 +27,7 @@
               echo "<p> You are in the .'$BugCategory'. </p>";
         }else{
             echo '<h3> Keeping track of all the pesky little bugs </h3>' . '<br>';
-            echo '<p align="center"> You are looking at all the data in the database</p>';
+            echo '<p align="center" id="p"> You are looking at all the data in the database</p>';
         }
 
         ?>
