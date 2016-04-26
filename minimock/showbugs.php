@@ -64,9 +64,9 @@ if($_GET['BugCategory']) {
 
 
 
-                  echo ' <h4><strong>Bug Name </strong> </h4>' .  $bugName. '<br>';
-                  echo '<h4><strong> Bug Category </strong> </h4>' . $BugCategory.  '<br>';
-                  echo '<h4><strong>Bug Summary </h4></strong>' .  $BugSummary. '<br>';
+                  echo ' <h4><strong>Bug Name </strong> </h4>' .  $row['bugName']. '<br>';
+                  echo '<h4><strong> Bug Category </strong> </h4>' . $row['BugCategory'].  '<br>';
+                  echo '<h4><strong>Bug Summary </h4></strong>' .  $row['BugSummary']. '<br>';
 
 
 
