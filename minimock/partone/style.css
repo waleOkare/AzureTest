@@ -20,13 +20,14 @@ header img{
     margin-right: 10px;
 
 }
-
+/**
 header h3{
 
-/**    padding-top: 10px; **/
+   padding-top: 10px;
     padding-bottom: -3px;
 }
 
+**/
 
 ul {
     list-style-type: none;
