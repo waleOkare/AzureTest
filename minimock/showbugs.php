@@ -59,7 +59,8 @@
 
     <section class="grid-66 mobile-grid-66">
         <?php
-    //$BugCategory = $_GET['BugCategory'];
+    $BugCategory = $_GET['BugCategory'];
+    print $BugCategory;
 
   if(isset($_GET['BugCategory'])){
 
