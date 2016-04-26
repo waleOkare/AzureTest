@@ -14,7 +14,7 @@
 
 
     <header class="grid-100">
-     <img src="partone/logo.png" id="logo"/>
+     <img src="partone/logo.png"/>
 
     <h1><strong> BugTracker </strong></h1>
 
