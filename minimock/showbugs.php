@@ -14,7 +14,7 @@
     <a href="index.php"> <img src="partone/logo.png" id="logo"/> </a>
 
         <h1> <strong> BugTracker </strong></h1>
-
+        <h3> Keeping track of all the pesky little bugs <br> </h3>
 
         <?
         if(isset($_GET['BugCategory'])){
@@ -23,13 +23,15 @@
             $bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);
             while($row = mysqli_fetch_array($bugs_SQLselect_Query, MYSQLI_ASSOC )) {
                 $BugCategory = $row['BugCategory'];
-                echo "<h3> Keeping track of all the pesky little bugs <br> </h3>";
+
+
+
                 echo "<p align='center'id='p'>  You are in the {$BugCategory} category  </p>";
 
             }
 
         }else{
-            echo '<h3> Keeping track of all the pesky little bugs </h3>' . '<br>';
+
             echo '<p align="center" id="p"> You are looking at all the data in the database</p>';
         }
 
