@@ -21,14 +21,14 @@
             $BugCategory =$_GET['BugCategory'];
             $bugs_SQLselect = " SELECT * FROM bugs WHERE BugCategory = '$BugCategory' ";
             $bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);
-            while($row = mysqli_fetch_array($bugs_SQLselect_Query, MYSQLI_ASSOC )) {
+            $row = mysqli_fetch_array($bugs_SQLselect_Query, MYSQLI_ASSOC );
                 $BugCategory = $row['BugCategory'];
 
 
 
                 echo "<p align='center'id='p'>  You are in the {$BugCategory} category  </p>";
 
-            }
+
 
         }else{
 
