@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Landing Page </title>
-    <link rel="stylesheet" type="text/css" href="partone/style.css">
-    <link rel="stylesheet" href=partone/unsemantic-grid-responsive-tablet.css>
+    <link rel="stylesheet" type="text/css" href="../Task1/style.css">
+    <link rel="stylesheet" href=../Task1/unsemantic-grid-responsive-tablet.css>
 
 </head>
 
@@ -14,7 +14,7 @@
 
 
     <header class="grid-100">
-        <a href="index.php"> <img src="partone/logo.png" id="logo"/> </a>
+        <a href="index.php"> <img src="../Task1/logo.png" id="logo"/> </a>
 
     <h1><strong> BugTracker </strong></h1>
 

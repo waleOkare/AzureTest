@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Add Bug Page</title>
-    <link rel="stylesheet" type="text/css" href="partone/style.css">
-    <link rel="stylesheet" href=partone/unsemantic-grid-responsive-tablet.css>
+    <link rel="stylesheet" type="text/css" href="../Task1/style.css">
+    <link rel="stylesheet" href=../Task1/unsemantic-grid-responsive-tablet.css>
 
 </head>
 
@@ -12,7 +12,7 @@
 <main class="grid-container">
 
     <header class="grid-100">
-        <img src="partone/logo.png" id="logo"/>
+        <img src="../Task1/logo.png" id="logo"/>
 
         <h1> <strong> BugTracker </strong></h1>
 
@@ -37,7 +37,7 @@
 
     <section class="grid-66 mobile-grid-66">
         <?php
-        include ("dbConnect.php");
+        include("dbConnect.php");
         if($_SERVER['REQUEST_METHOD']==='GET'){
             ?>
 
