@@ -1,0 +1,94 @@
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* this is to control the navigation bar */
+header{
+    border: solid;
+}
+nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav>ul>li{
+    float:left;
+}
+
+nav>ul>li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+li a:hover{
+    color: darkred;
+}
+
+#left{
+    float :left;
+    padding-right: 5cm;
+}
+p{
+    padding-left: 5cm;
+}
+#moveleft{
+    padding-left: 5cm;
+}
+
+
+#col1{
+    background-color: green;
+    width:29%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+}
+#col2{
+    background-color: red;
+    width:30%;
+    display: inline-block;
+    margin: 1%;
+    padding: 1%;
+}
+#col3{
+    background-color: blue;
+    width:29%;
+    float: right;
+    margin: 1%;
+    padding: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer>p{
+    width: 960px;
+    margin-left:auto;
+    margin-right:auto;
+    color:black;
+    text-align: center;
+
+}
+#footer{
+
+}
+h1{
+    text-align: center;
+}
