@@ -4,6 +4,9 @@ body{
     margin-right: auto;
 }
 /* this is to control the navigation bar */
+html{
+    font-family: "cursive", sans-serif;
+}
 header{
     border: solid;
 }
@@ -27,6 +30,40 @@ nav>ul>li a {
 li a:hover{
     color: darkred;
 }
+/** forms **/
+input[type=text] {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=email] {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+
+#textarea{
+vertical-align: top;
+
+
+}
+
+input[type=submit]{
+    float: left;
+
+}
+
+
+
+
+
+
+
+
 
 #left{
     float :left;
@@ -64,31 +101,12 @@ p{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer>p{
-    width: 960px;
-    margin-left:auto;
-    margin-right:auto;
-    color:black;
     text-align: center;
 
 }
-#footer{
 
-}
+
 h1{
     text-align: center;
 }
