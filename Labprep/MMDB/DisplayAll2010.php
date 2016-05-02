@@ -33,53 +33,70 @@
     </aside>
 
 
-<?php
-include("connection.php");
 
 
-$sql = "
+
+
+    <section class="grid-66 mobile-grid-66">
+
+
+        <?php
+        include("connection.php");
+
+
+        $sql = "
               SELECT *
               FROM marvelmovies
               WHERE yearReleased>2010;
 
 ";
-echo "<table border = '1'>";
+        echo "<table border = '1'>";
 
-echo "<tr>";
-
-
-
-echo "<th> yearReleased </th>";
-echo "<th> Title </th>";
-
-
-echo "</tr>";
+        echo "<tr>";
 
 
 
-$result = mysqli_query($db,$sql);
-while($row = $result->fetch_array()){
-
-    $yearReleased = $row['yearReleased'];
-    $title = $row['title'];
-
-    echo "<tr>";
-
-    echo "<td> $yearReleased </td>";
-    echo "<td> $title </td>";
+        echo "<th> yearReleased </th>";
+        echo "<th> Title </th>";
 
 
-    echo "</tr>";
-}
-
-
-?>
+        echo "</tr>";
 
 
 
+        $result = mysqli_query($db,$sql);
+        while($row = $result->fetch_array()){
 
-<footer id="footer">
-    <p> Designed by Wale Patrick </p>
+            $yearReleased = $row['yearReleased'];
+            $title = $row['title'];
+
+            echo "<tr>";
+
+            echo "<td> $yearReleased </td>";
+            echo "<td> $title </td>";
+
+
+            echo "</tr>";
+        }
+
+
+        ?>
+
+
+
+
+
+    </section>
+
+
+
+</main>
+
+
+
+
+<footer class="footer">
+    <p> Designed by [Wale Patrick, 2016] </p>
 </footer>
 
 </body>

@@ -66,34 +66,34 @@
                 $bugs_SQLselect = "    SELECT * FROM bugs WHERE BugCategory = '$BugCategory' ";
 
 }else{
-                $bugs_SQLselect = "    SELECT * FROM bugs ";
+$bugs_SQLselect = "    SELECT * FROM bugs ";
 
 
 
 }
-            $bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);
+$bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);
 
-             $indx = 1;
-             while($row = mysqli_fetch_array($bugs_SQLselect_Query, MYSQLI_ASSOC)){
-             $bugName = $row['bugName'];
-             $BugCategory = $row['BugCategory'];
-             $BugSummary =  $row['BugSummary'];
+$indx = 1;
+while($row = mysqli_fetch_array($bugs_SQLselect_Query, MYSQLI_ASSOC)){
+$bugName = $row['bugName'];
+$BugCategory = $row['BugCategory'];
+$BugSummary =  $row['BugSummary'];
 
-                  echo ' <h4><strong>Bug Name </strong> </h4>' .  $bugName. '<br>';
-                  echo '<h4><strong> Bug Category </strong> </h4>' . $BugCategory.  '<br>';
-                  echo '<h4><strong>Bug Summary </h4></strong>' .  $BugSummary. '<br>';
-                  echo ' <hr>';
+echo ' <h4><strong>Bug Name </strong> </h4>' .  $bugName. '<br>';
+echo '<h4><strong> Bug Category </strong> </h4>' . $BugCategory.  '<br>';
+echo '<h4><strong>Bug Summary </h4></strong>' .  $BugSummary. '<br>';
+echo ' <hr>';
 
-             $indx++;
-        }
-        mysqli_free_result($bugs_SQLselect_Query);
-        ?>
-
-
+$indx++;
+}
+mysqli_free_result($bugs_SQLselect_Query);
+?>
 
 
 
-    </section>
+
+
+</section>
 
 
 
