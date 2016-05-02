@@ -19,18 +19,6 @@
     </header>
 
 
-    <aside class="grid-33 mobile-grid-66">
-        <nav>
-            <ul>
-                <li><a href="index.php"> Home </a></li>
-                <li><a href="DisplayAllMovies.php"> All MOVIES CURRENTLY IN THE DATABASE </a></li>
-                <li><a href="DisplayMoviesMarvelStudio.php"> ALL MARVEL CREATED BY MARVEL STUDIOS </a></li>
-                <li><a href="DisplayAll2010.php"> MOVIES FROM 2010 </a></li>
-                <li><a href="DisplayAllXmenFilms.php"> ALL XMEN FILMS </a></li>
-
-            </ul>
-        </nav>
-    </aside>
 
 
 
@@ -56,11 +44,7 @@ echo "<tr>";
 
 echo "<th> yearReleased </th>";
 echo "<th> Title </th>";
-
-
 echo "</tr>";
-
-
 
 $result = mysqli_query($db,$sql);
 while($row = $result->fetch_array()){
@@ -72,17 +56,29 @@ while($row = $result->fetch_array()){
 
     echo "<td> $yearReleased </td>";
     echo "<td> $title </td>";
-
-
     echo "</tr>";
 }
 ?>
-
     </section>
 
-
-
 </main>
+
+
+<aside class="grid-33 mobile-grid-66">
+    <nav>
+        <ul>
+            <li><a href="index.php"> Home </a></li>
+            <li><a href="DisplayAllMovies.php"> All MOVIES CURRENTLY IN THE DATABASE </a></li>
+            <li><a href="DisplayMoviesMarvelStudio.php"> ALL MARVEL CREATED BY MARVEL STUDIOS </a></li>
+            <li><a href="DisplayAll2010.php"> MOVIES FROM 2010 </a></li>
+            <li><a href="DisplayAllXmenFilms.php"> ALL XMEN FILMS </a></li>
+
+        </ul>
+    </nav>
+</aside>
+
+
+
 
 
 
