@@ -19,7 +19,7 @@ $username = $_GET['username'];
 
 
 
-echo "<h4> Current user Login as: {$username} </h4>";
+echo "<h4> Current user Login as: <P style='color: cornsilk'> {$username}</P>  </h4>";
 
 ?>
 <br>
