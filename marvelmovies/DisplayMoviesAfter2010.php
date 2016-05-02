@@ -73,6 +73,7 @@ echo "<table border = '1'>";
     $indx++;
     }
 
+
     echo "</table>";
 
 
