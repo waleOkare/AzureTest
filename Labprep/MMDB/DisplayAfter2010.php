@@ -74,13 +74,18 @@
 
             echo "<td> $yearReleased </td>";
             echo "<td> $title </td>";
+
+
             echo "</tr>";
+
+
         }
 
 
+
+        echo '</table>';
+
         ?>
-
-
 
     </section>
 
