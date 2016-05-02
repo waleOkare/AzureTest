@@ -18,13 +18,13 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-   / background-color: #f1f1f1;
+    background-color: #f1f1f1;
     overflow: auto;
 }
 
 li a {
     display: block;
-   / color: #000;
+    color: ghostwhite;
     padding: 10px 0 8px 10px;
     text-decoration: none;
 
