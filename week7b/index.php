@@ -30,7 +30,7 @@
                     $firstname = $row['firstname'];
                     $lastname = $row['lastname'];
                     $id = $row['superheroID'];
-                    echo "<li> <a href='displaybattles.php?id={$id}'>Battles for {$firstname} {$lastname}</a></li> ";
+                    echo "<li> <a href='displaybattles.phplab?id={$id}'>Battles for {$firstname} {$lastname}</a></li> ";
                 }
 
                ?>

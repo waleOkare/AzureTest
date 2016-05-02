@@ -81,14 +81,14 @@
 
             if (mysqli_query($db, $bug_SQLinsert)) {
 
-                header("location:showbugs.php");
+                header("location:showbugs.phplab");
             } else {
                 echo "Failed to add new bug";
 
             }
         }
        else{
-           ("location:index.php");
+           ("location:index.phplab");
        }
 
 

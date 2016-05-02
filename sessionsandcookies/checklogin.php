@@ -10,7 +10,7 @@ if($username =='username' && $password=='password') {
  $_SESSION['access_level'] = "standarduser";
 }
 
-header('location:homepage.php');
+header('location:homepage.phplab');
 
 
 
@@ -20,5 +20,5 @@ header('location:homepage.php');
 if($username =='username' && $password=='password'){
  setcookie('access_level', 'standarduser');
 }
-header('location:homepage.php');
+header('location:homepage.phplab');
 **/
