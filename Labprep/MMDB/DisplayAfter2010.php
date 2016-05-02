@@ -88,7 +88,7 @@ while($row = $result->fetch_array()){
 
 
 
-<footer class="footer">
+<footer id="footer">
 
     <p> Designed by [Wale Patrick, [2016] </p>
 

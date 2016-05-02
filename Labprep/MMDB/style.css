@@ -47,5 +47,7 @@ footer>p{
 **/
 #footer{
     background-color: red;
-
+    height: 150px;
+    clear: both;
+    /*  width: 100%; */
 }
