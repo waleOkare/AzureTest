@@ -23,12 +23,29 @@
 
 
     <section class="grid-66 mobile-grid-66">
+        <p>
+            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
+            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
+            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
+            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
+            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
+            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
+            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
+            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
+            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
+            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
+            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
+            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
+            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
+            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
+            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
+            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
+            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
+            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
+            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
+            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
 
-
-        <h3> MARVEL MOVIES DATABASE QUERYING </h3>
-
-        <p> Click on Links to Navigate.... </p>
-
+        </p>
     </section>
 
 
