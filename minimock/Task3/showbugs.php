@@ -28,7 +28,7 @@
 
         }else{
 
-            echo '<p align="center" id="p"> You are looking at all the data in the database </p>';
+            echo '<h4 align="center" id="p"> You are looking at all the data in the database </h4>';
         }
 
         ?>
