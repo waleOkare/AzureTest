@@ -22,7 +22,7 @@
         if(isset($_GET['BugCategory'])){
             $BugCategory =$_GET['BugCategory'];
 
-               echo "<h4>  You are in the $BugCategory category  </h4>";
+               echo "<h4 align='center' id='p'>  You are in the $BugCategory category  </h4>";
 
 
         }else{
