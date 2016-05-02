@@ -22,6 +22,7 @@
 
 
     <aside class="grid-33 mobile-grid-66">
+
         <nav>
             <ul>
                 <li><a href="index.php"> Home </a></li>
@@ -32,6 +33,7 @@
 
             </ul>
         </nav>
+
     </aside>
 
 
