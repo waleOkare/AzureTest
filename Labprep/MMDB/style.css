@@ -9,7 +9,7 @@ html {
 }
 header{
     height: 50%;
-
+    background-color: cornsilk;
 }
 
 
@@ -32,7 +32,7 @@ li a {
 
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color:greenyellow;
+    background-color:darkred;
 
 }
 
@@ -40,7 +40,7 @@ li a:hover, .dropdown:hover .dropbtn {
 /**  Styling Table............**/
 
 th {
-    background-color: #006666;
+    background-color: cornsilk;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -69,7 +69,7 @@ footer>p{
   /  color:greenyellow;
 }
 #footer{
-   / background-color:  #066;
+    background-color:  cornsilk;
 
     height: 150px;
  /   clear: both;
