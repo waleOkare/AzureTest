@@ -4,3 +4,17 @@ body{
     margin-right: auto;
     background-color: mintcream;
 }
+
+main{
+    background-color: yellow;
+}
+aside{
+    background-color: red;
+}
+section{
+    background-color: purple;
+}
+
+footer{
+    background-color: #4CAF50;
+}
