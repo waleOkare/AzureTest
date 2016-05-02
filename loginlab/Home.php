@@ -17,6 +17,9 @@
 <?php
 include ("connection.php");
 
+$username = $_GET['username'];
+
+echo '<h3>Current user logged in as :  </h3> ' .$username;
 
 
 $sql_display_users = "
