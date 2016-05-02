@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Landing Page </title>
+    <title> Home  </title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href=unsemantic-grid-responsive-tablet.css>
 
