@@ -43,6 +43,18 @@ $sql = "
               WHERE yearReleased>2010;
 
 ";
+echo "<table border = '1'>";
+
+echo "<tr>";
+
+
+
+echo "<th> yearReleased </th>";
+echo "<th> Title </th>";
+
+
+echo "</tr>";
+
 
 
 $result = mysqli_query($db,$sql);
@@ -50,12 +62,25 @@ while($row = $result->fetch_array()){
 
     $yearReleased = $row['yearReleased'];
     $title = $row['title'];
-    $productionStudio = $row['productionStudio'];
-    $notes = $row['notes'];
 
-   echo  $yearReleased ;
-    echo   $title ;
-    echo  $productionStudio ;
-    echo  $notes;
+    echo "<tr>";
+
+    echo "<td> $yearReleased </td>";
+    echo "<td> $title </td>";
+
+
+    echo "</tr>";
 }
 
+
+?>
+
+
+
+
+<footer id="footer">
+    <p> Designed by Wale Patrick </p>
+</footer>
+
+</body>
+</html>
