@@ -37,7 +37,7 @@ $user_SQL = "SELECT username, password
 
 $user_SQL_Query = mysqli_query($db, $user_SQL);
 
-echo'<h2> TABLE DISPLAYS <strong style="color: darkred"> ALL MOVIES </strong> FROM THE MARVELMOVIES DATABASE </h2>';
+echo'<h2> TABLE DISPLAYS <strong style="color: darkred"> USERS </strong> FROM THE ADMIN(USERS) DATABASE </h2>';
 echo'<br>';
 
 echo "<table border = '1'>";
