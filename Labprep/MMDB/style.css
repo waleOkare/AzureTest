@@ -44,6 +44,25 @@ li a:hover, .dropdown:hover .dropbtn {
 
 
 
+footer>p{
+    text-align: center;
+  /  color:greenyellow;
+}
+#footer{
+   / background-color:  #066;
+
+    height: 150px;
+ /   clear: both;
+    /*  width: 100%; */
+}
+
+
+
+
+
+
+
+
 
 
 
