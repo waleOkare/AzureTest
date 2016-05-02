@@ -9,7 +9,7 @@
 <body>
 <h1>PHP Login Form without Session</h1>
 
- <h2 style="color: ghostwhite" align="center"> Administrator Login </h2>
+ <h2 style="color: ghostwhite" align="center"> Login page </h2>
  <div class="login-page">
          <div class="form">
                  <form method="post" action="login.php" >
@@ -21,7 +21,7 @@
                          <br>
                          <br>
                          <div class="submit">
-                             <button type="submit" name="submit" value="login" style="color: darkorange"> <Strong> LOGIN </Strong> </button>
+                             <button type="submit" name="submit" value="login" style="color: darkred"> <Strong> LOGIN </Strong> </button>
                                  <br>
                                  <br>
                              </div>
@@ -31,3 +31,4 @@
 
 </body>
 </html>
+
