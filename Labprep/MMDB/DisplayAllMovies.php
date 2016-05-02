@@ -67,16 +67,18 @@
         $result = mysqli_query($db,$sql);
         while($row = $result->fetch_array()){
 
-            $title = $row['yearReleased'];
+            $yearReleased = $row['yearReleased'];
             $title = $row['title'];
-            $title = $row['productionStudio'];
-            $title = $row['notes'];
+            $productionStudio = $row['productionStudio'];
+            $notes = $row['notes'];
 
             echo "<tr>";
 
 
+            echo "<td> $yearReleased </td>";
             echo "<td> $title </td>";
-
+            echo "<td> $productionStudio </td>";
+            echo "<td> $notes </td>";
 
             echo "</tr>";
 
