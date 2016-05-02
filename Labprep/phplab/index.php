@@ -22,8 +22,8 @@
                          <br>
                          <div class="submit">
                              <button type="submit" name="submit" value="login" style="color: darkred"> <Strong> LOGIN </Strong> </button>
-                                 <br>
-                                 <br>
+                             <br>
+                             <br>
                              </div>
                      </form>
              </div>
