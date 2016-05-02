@@ -50,8 +50,10 @@
 
         $sql = "
               SELECT marvelMovieID, title
-              FROM marvelmovies
-               WHERE title LIKE X-MEN%";
+               FROM marvelmovies
+               WHERE title LIKE 'X-MEN%'
+
+               ";
 
 
         echo "<table border = '1'>";
