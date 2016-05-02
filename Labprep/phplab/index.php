@@ -13,7 +13,7 @@
  <div class="login-page">
          <div class="form">
                  <form method="post" action="login.php" >
-                         <label style="color: gray"> Username </label> <input type="text" name="username" placeholder="username" />
+                         <label style="color: gray"> Username </label> <input type="text" name="username" placeholder="username"  required/>
                          <br>
                          <label style="color: gray"> Password </label> <input type="password" name="password" placeholder="password"  />
 
