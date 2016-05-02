@@ -72,7 +72,7 @@ echo "</table>";
 
 ?>
 
-<p style="color: transparent"> Note to self: I need to learn how to encrypt passwords both at client and server level </p>
+<p style=" color: whitesmoke"> Note to self: I need to learn how to encrypt passwords both at client and server level </p>
 
 
 </body>
