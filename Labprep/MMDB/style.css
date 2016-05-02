@@ -4,7 +4,9 @@ body{
     margin-right: auto;
     background-color: mintcream;
 }
-
+header{
+    background-color: aquamarine;
+}
 main{
     background-color: yellow;
 }
@@ -18,3 +20,4 @@ section{
 footer{
     background-color: #4CAF50;
 }
+
