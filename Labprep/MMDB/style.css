@@ -2,7 +2,7 @@ body{
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    background-color: crimson;
+    background-color: cornsilk;
 }
 html {
     font-family: "cursive", sans-serif;
@@ -39,7 +39,7 @@ li a:hover, .dropdown:hover .dropbtn {
 
 h1,p{
     text-align: center;
-    color: cornsilk;
+    color: navy;
 }
 
 /**  Styling Table............**/
@@ -71,7 +71,7 @@ tr:hover {background-color: darkred;}
 
 footer>p{
     text-align: center;
-   color:cornsilk;
+   color:navy;
 }
 #footer{
     background-color: crimson;
