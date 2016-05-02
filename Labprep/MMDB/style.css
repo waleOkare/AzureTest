@@ -44,7 +44,8 @@ footer>p{
     color:white;
     text-align: center;
 }
+**/
 #footer{
     background-color: red;
-    height: 200px;
+  /  height: 200px;
 }
