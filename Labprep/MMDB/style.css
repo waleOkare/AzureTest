@@ -40,15 +40,16 @@ li a:hover, .dropdown:hover .dropbtn {
 
 
 
-
 footer>p{
+/   width: 150px;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
     text-align: center;
-    color:greenyellow;
 }
-.footer{
-    background-color:  #066;
+#footer{
+    background-color: #363636;
+    height: 200px;
+}
 
-    height: 150px;
-    clear: both;
-    /*  width: 100%; */
-}
+
