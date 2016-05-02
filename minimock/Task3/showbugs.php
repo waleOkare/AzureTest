@@ -17,21 +17,22 @@
         <h3> Keeping track of all the pesky little bugs <br> </h3>
 
         <?
-      //  $BugCategory =$_GET['BugCategory'];
+       $BugCategory =$_GET['BugCategory'];
 
         if(isset($_GET['BugCategory'])){
             $BugCategory =$_GET['BugCategory'];
-
+/**
             $bugs_SQLselect = " SELECT * FROM bugs WHERE BugCategory = '$BugCategory' ";
 
             $bugs_SQLselect_Query = mysqli_query($db, $bugs_SQLselect);
 
            while($row = mysqli_fetch_array($bugs_SQLselect_Query, MYSQLI_ASSOC)) {
                $BugCategory = $row['BugCategory'];
+**/
 
                echo "<h4>  You are in the .$BugCategory. category  </h4>";
-echo "arghh!!!!!!!!!!!!!!!!!!!!!!!!!!";
-           }
+
+
 
         }else{
 
