@@ -22,16 +22,15 @@
     <aside class="grid-33 mobile-grid-66">
         <nav>
             <ul>
-
-                <li><a href="DisplayAllMovies.php"> All MOVIES CURRENTLY IN THE DATABASE </a></li>
-                <li><a href="DisplayMoviesMarvelStudio.php"> Android Bu</a></li>
-                <li><a href="DisplayAll2010.php"> iOS Bugs </a></li>
-                <li><a href="DisplayAllXmenFilms.php"> Windows Bugs </a></li>
                 <li><a href="index.php"> Home </a></li>
+                <li><a href="DisplayAllMovies.php"> All MOVIES CURRENTLY IN THE DATABASE </a></li>
+                <li><a href="DisplayMoviesMarvelStudio.php"> ALL MARVEL CREATED BY MARVEL STUDIOS </a></li>
+                <li><a href="DisplayAll2010.php"> MOVIES FROM 2010 </a></li>
+                <li><a href="DisplayAllXmenFilms.php"> ALL XMEN FILMS </a></li>
+
             </ul>
         </nav>
     </aside>
-
 
 
 
@@ -40,7 +39,7 @@
 
         <h3> MARVEL MOVIES DATABASE QUERYING </h3>
 
-        <p> Click on Links to Navigate. </p>
+        <p> Click on Links to Navigate.... </p>
 
     </section>
 
