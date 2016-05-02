@@ -30,7 +30,7 @@
                $BugCategory = $row['BugCategory'];
 **/
 
-               echo "<h4>  You are in the .$BugCategory. category  </h4>";
+               echo "<h4>  You are in the $BugCategory category  </h4>";
 
 
 
