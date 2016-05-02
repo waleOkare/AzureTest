@@ -13,7 +13,7 @@
 <main class="grid-container">
 
     <header class="grid-100">
-        <img src="logo.png" id="logo"/>
+
 
         <h1><strong> BugTracker </strong></h1>
 
@@ -24,12 +24,12 @@
     <aside class="grid-33 mobile-grid-66">
         <nav>
             <ul>
+                <li><a href="index.php"> Home </a></li>
+                <li><a href="DisplayAllMovies.php"> All MOVIES CURRENTLY IN THE DATABASE </a></li>
+                <li><a href="DisplayMoviesMarvelStudio.php"> ALL MARVEL CREATED BY MARVEL STUDIOS </a></li>
+                <li><a href="DisplayAfter2010.php"> MOVIES FROM 2010 </a></li>
+                <li><a href="DisplayAllXmenFilms.php"> ALL XMEN FILMS </a></li>
 
-                <li><a href="showbugs.html"> All Bug Items </a></li>
-                <li><a href="showbugs.html"> Android Bugs </a></li>
-                <li><a href="showbugs.html"> iOS Bugs </a></li>
-                <li><a href="addbugs.html"> Windows Bugs </a></li>
-                <li><a href="addbugs.html"> Insert Bug </a></li>
             </ul>
         </nav>
     </aside>
