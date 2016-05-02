@@ -48,7 +48,7 @@
         include("connection.php");
 
 
-        $sql = "
+           $sql = "
               SELECT marvelMovieID, title,productionStudio
               FROM marvelmovies
               WHERE productionStudio= 'Marvel Studios'";
@@ -62,6 +62,7 @@
 
         echo "<th> marvelMovieID </th>";
         echo "<th> title </th>";
+        echo "<th> productionStudio </th>";
         echo "</tr>";
 
         $result = mysqli_query($db,$sql);

@@ -51,7 +51,7 @@
         $sql = "
               SELECT marvelMovieID, title
               FROM marvelmovies
-              WHERE yearReleased = LIKE X-MEN%;";
+              WHERE title LIKE X-MEN%;";
 
 
         echo "<table border = '1'>";
