@@ -47,6 +47,7 @@ echo "<table border = '1'>";
 echo "<tr>";
 
 
+
 echo "<th> marvelMovieID </th>";
 echo "<th> Title </th>";
 
