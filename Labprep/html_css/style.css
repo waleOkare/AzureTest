@@ -1,0 +1,174 @@
+ /* @import "templatecolours.csslab"; */
+/* remember to comment on ur stylesheet in the access Lab */
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ nav>ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+ }
+ nav>ul>li{
+     float:left;
+ }
+
+ nav>ul>li a {
+     display: block;
+     color: #000000;
+     text-align: center;
+     padding: 10px 30px;
+     text-decoration: none;
+ }
+
+ li a:hover{
+     color: mediumpurple;
+ }
+/**  Aside**/
+
+ aside p, h3,h4{
+     color: white;
+     margin: 0;
+ }
+ aside h3{
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ aside h4{
+     padding-top: 20px;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ aside p{
+
+     padding-bottom: 20px;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+
+ aside {
+     padding-right: 0px !important;
+     margin-top: -5px !important;
+ }
+
+
+
+
+ #logo{
+  width:300px;
+ }
+
+ #christina{
+  width:240px;
+
+ }
+
+ #banner{
+     max-width:960px;
+
+ }
+
+
+/**   To Control the Navigation bar............................. **/
+ #sidebar1{
+     background-color: #DBC9DF;
+
+ }
+
+a{
+    text-decoration: none;
+}
+
+ #sidebar2{
+     background-color:  #782A7E;
+
+ }
+
+
+/** Text styling **/
+ h1{
+     font-family: 'roboto', sans-serif;
+     font-weight: 300;
+ }
+
+ p,h2,h3,h4,h5,a{
+     font-family: 'roboto', sans-serif;
+     font-weight: 400;
+ }
+ h3, h4, h5{
+     font-family: 'roboto', sans-serif;
+     font-weight: 700;
+ }
+
+
+
+
+/** footer styling **/
+
+ footer>p{
+     width: 150px;
+     margin-left:auto;
+     margin-right:auto;
+     color:white;
+
+ }
+ #footer{
+     background-color: #363636;
+     height: 200px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer>p{
+    width: 150px;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+}
+#footer{
+    background-color:  #363636;
+}
