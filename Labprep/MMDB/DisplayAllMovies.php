@@ -58,17 +58,19 @@
 
         echo "<tr>";
 
-
-
-
+        echo "<th> yearReleased </th>";
         echo "<th> Title </th>";
+        echo "<th> productionStudio </th>";
+        echo "<th> notes </th>";
         echo "</tr>";
 
         $result = mysqli_query($db,$sql);
         while($row = $result->fetch_array()){
 
-
+            $title = $row['yearReleased'];
             $title = $row['title'];
+            $title = $row['productionStudio'];
+            $title = $row['notes'];
 
             echo "<tr>";
 
