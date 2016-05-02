@@ -38,19 +38,23 @@
 
 
 
-
-    <section class="grid-66 mobile-grid-66">
-
-
-
-        <?php
-        include("connection.php");
+    <?php
+    include("connection.php");
 
 
-        $sql = "
+    $sql = "
               SELECT *
               FROM marvelmovies
               WHERE yearReleased>2010;";
+
+
+
+
+   echo'<section class="grid-66 mobile-grid-66">';
+
+
+
+
 
 
         echo "<table border = '1'>";
@@ -75,12 +79,12 @@
             echo "<td> $title </td>";
             echo "</tr>";
         }
-        ?>
 
 
-    </section>
 
+  echo   '</section>';
 
+    ?>
 
 </main>
 
@@ -93,3 +97,4 @@
 
 </body>
 </html>
+
