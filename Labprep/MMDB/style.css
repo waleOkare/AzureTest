@@ -37,10 +37,15 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 
+h1{
+    text-align: center;
+    color: crimson;
+}
+
 /**  Styling Table............**/
 
 th {
-    background-color: cornsilk;
+    background-color: crimson;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -50,7 +55,7 @@ th {
 td, th {
     padding: 8px;
     text-align: left;
-    border-bottom: 1px solid #006666;
+    border-bottom: 1px solid crimson;
 }
 
 td{
@@ -66,7 +71,7 @@ tr:hover {background-color: darkred;}
 
 footer>p{
     text-align: center;
-  /  color:greenyellow;
+   color:crimson;
 }
 #footer{
     background-color:  cornsilk;
