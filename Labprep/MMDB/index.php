@@ -15,9 +15,9 @@
     <header class="grid-100">
 
 
-        <h1><strong> BugTracker </strong></h1>
+        <h1> MARVEL MOVIES DATABASE </h1>
 
-        <h3> Keeping track of all the pesky little bugs  </h3>
+
     </header>
 
 
@@ -41,26 +41,8 @@
 
     <section class="grid-66 mobile-grid-66">
         <p>
-            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
-            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
-            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
-            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
-            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
-            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
-            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
-            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
-            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
-            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
-            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
-            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
-            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
-            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
-            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
-            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
-            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
-            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
-            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwrog
-            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
+
+            Click the links to query the database.
 
         </p>
     </section>
