@@ -2,14 +2,14 @@ body{
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    background-color: mintcream;
+    background-color: white;
 }
 html {
     font-family: "cursive", sans-serif;
 }
 header{
 
-    background-color: #066;
+    background-color: red;
 }
 
 
@@ -45,6 +45,6 @@ footer>p{
     text-align: center;
 }
 #footer{
-    background-color: #363636;
+    background-color: red;
     height: 200px;
 }
