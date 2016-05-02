@@ -38,6 +38,7 @@
 
 
 
+
     <?php
     include("connection.php");
 
@@ -48,43 +49,42 @@
               WHERE yearReleased>2010;";
 
 
+    echo "<table border = '1'>";
 
-
-   echo'<section class="grid-66 mobile-grid-66">';
-
-
-
+    echo "<tr>";
 
 
 
-        echo "<table border = '1'>";
+    echo "<th> yearReleased </th>";
+    echo "<th> Title </th>";
+    echo "</tr>";
+
+    $result = mysqli_query($db,$sql);
+    while($row = $result->fetch_array()){
+
+        $yearReleased = $row['yearReleased'];
+        $title = $row['title'];
 
         echo "<tr>";
 
-
-
-        echo "<th> yearReleased </th>";
-        echo "<th> Title </th>";
+        echo "<td> $yearReleased </td>";
+        echo "<td> $title </td>";
         echo "</tr>";
+    }
 
-        $result = mysqli_query($db,$sql);
-        while($row = $result->fetch_array()){
-
-            $yearReleased = $row['yearReleased'];
-            $title = $row['title'];
-
-            echo "<tr>";
-
-            echo "<td> $yearReleased </td>";
-            echo "<td> $title </td>";
-            echo "</tr>";
-        }
-
-
-
-  echo   '</section>';
 
     ?>
+
+    <section class="grid-66 mobile-grid-66">
+
+
+
+
+
+
+    </section>
+
+
 
 </main>
 
