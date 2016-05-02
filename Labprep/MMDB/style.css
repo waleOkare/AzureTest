@@ -14,7 +14,6 @@ header{
 
 
 
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -36,6 +35,54 @@ li a:hover, .dropdown:hover .dropbtn {
     background-color:greenyellow;
 
 }
+
+
+/**  Styling Table............**/
+
+th {
+    background-color: #006666;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+td, th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #006666;
+}
+
+td{
+    vertical-align: bottom;
+}
+
+tr:hover {background-color: darkred;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
