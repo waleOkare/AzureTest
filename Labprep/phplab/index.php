@@ -1,6 +1,4 @@
 
-
-
 <!doctype html>
 <html>
 <head>
@@ -10,25 +8,26 @@
 </head>
 <body>
 <h1>PHP Login Form without Session</h1>
-<div class="loginBox">
-    <h3>Login Form</h3>
-    <br><br>
 
-    <form method="post" action="login.php">
+ <h2 style="color: ghostwhite" align="center"> Administrator Login </h2>
+ <div class="login-page">
+         <div class="form">
+                 <form method="post" action="login.php" >
+                         <label style="color: gray"> Username </label> <input type="text" name="username" placeholder="username" />
+                         <br>
+                         <label style="color: gray"> Password </label> <input type="password" name="password" placeholder="password"  />
 
-        <label>Username:</label><br>
-        <input type="text" name="username" placeholder="username"/>
-            <br><br>
-        <label>Password:</label><br>
-        <input type="password" name="password" placeholder="password" />
-        <br><br>
-        <input type="submit" name="submit" value = "login"/>
 
-    </form>
+                         <br>
+                         <br>
+                         <div class="submit">
+                             <button type="submit" name="submit" value="login" style="color: darkorange"> <Strong> LOGIN </Strong> </button>
+                                 <br>
+                                 <br>
+                             </div>
+                     </form>
+             </div>
+     </div>
 
-    <div class="error"><?php //echo $error;?><?php //echo $username; echo
-        $password;?></div>
-
-</div>
 </body>
 </html>
