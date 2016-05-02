@@ -49,7 +49,7 @@
 
 
         $sql = "
-              SELECT *
+              SELECT yearReleased,title,productionStudio,notes
               FROM marvelmovies
               ;";
 
@@ -59,7 +59,7 @@
         echo "<tr>";
 
         echo "<th> yearReleased </th>";
-        echo "<th> Title </th>";
+        echo "<th> title </th>";
         echo "<th> productionStudio </th>";
         echo "<th> notes </th>";
         echo "</tr>";
