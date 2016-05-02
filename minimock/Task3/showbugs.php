@@ -25,7 +25,6 @@
                echo "<h4>  You are in the $BugCategory category  </h4>";
 
 
-
         }else{
 
             echo '<h4 align="center" id="p"> You are looking at all the data in the database </h4>';

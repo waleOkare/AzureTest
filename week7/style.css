@@ -1,4 +1,4 @@
- /* @import "templatecolours.css"; */
+ /* @import "templatecolours.csslab"; */
 /* remember to comment on ur stylesheet in the access Lab */
 body{
     max-width: 960px;
@@ -23,6 +23,7 @@ nav>ul>li a {
     padding: 10px 30px;
     text-decoration: none;
 }
+
 li a:hover{
     color: #363636;
 }
