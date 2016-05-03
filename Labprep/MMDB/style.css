@@ -64,6 +64,14 @@ td{
 
 tr:hover {background-color: darkred;}
 
+aside {
+    padding-right: 0px !important;
+    margin-top: -5px !important;
+}
+
+
+
+
 
 
 
