@@ -86,7 +86,7 @@
 
 
         echo '</table>';
-
+        $db->close();
         ?>
 
 
