@@ -11,14 +11,14 @@
 
 <?php
 
-              $_GET["query"];
-             $_GET["type"];
+           $query   = $_GET["query"];
+            $type =  $_GET["type"];
 
-                  echo $_GET["query"];
+                  echo $query;
 
 echo '<br>';
 
-                 echo  $_GET["type"];
+                 echo  $type;
 
 ?>
 
