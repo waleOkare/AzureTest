@@ -24,7 +24,7 @@ ul {
     overflow: auto;
 }
 
-/** if you want ur codes to be in a straight.......
+/** if you want ur codes to be in a straight.......line
 ul>li {
     float: left;
 }
@@ -72,6 +72,7 @@ td{
 
 tr:hover {background-color: darkred;}
 
+/** Take out the aside too ...to be a straight line **/
 aside {
     padding-right: 0px !important;
     margin-top: -5px !important;
