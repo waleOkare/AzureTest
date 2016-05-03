@@ -22,10 +22,12 @@ ul {
     background-color: crimson;
     overflow: auto;
 }
+
+/** if you want ur codes to be in a straight.......
 ul>li {
     float: left;
 }
-
+**/
 
 li a {
     display: block;
