@@ -1,6 +1,9 @@
+
+
+
+
+
 <?php
-
-
 
 $Title = $_GET['Title'];
 $Content = $_GET['Content'];
