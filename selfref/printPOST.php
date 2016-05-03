@@ -5,10 +5,10 @@
 
 <?php
 
-$Title = $_GET['Title'];
-$option = $_GET['Option'];
+$Title = $_POST['Title'];
+$option = $_POST['Option'];
 
-$Content = $_GET['Content'];
+$Content = $_POST['Content'];
 
 
 
@@ -24,4 +24,3 @@ echo '<br>';
 echo'</article>';
 
 
-echo $Title;
