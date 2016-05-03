@@ -22,6 +22,10 @@ ul {
     background-color: crimson;
     overflow: auto;
 }
+ul>li {
+    float: left;
+}
+
 
 li a {
     display: block;
