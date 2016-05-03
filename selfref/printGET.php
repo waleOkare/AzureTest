@@ -11,14 +11,15 @@
 
 <?php
 
-           $query   = $_GET["query"];
-            $type =  $_GET["type"];
+             $query   = $_GET["query"];
+             $type =  $_GET["type"];
+             $city = $_GET['box'];
 
-                  echo $query;
-
-echo '<br>';
-
+                 echo $query;
+                 echo '<br>';
                  echo  $type;
+                 echo '<br>';
+                 echo  $city;
 
 ?>
 
