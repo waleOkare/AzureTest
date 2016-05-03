@@ -106,9 +106,8 @@
            </li>
 
         <li>
-            <label>Surname <span class="required"></span>
-                <input type="text" name="surname" class="field-long" />
-
+            <label>surname <span class="required"></span>
+                <input type="text" name="surname" class="field-divided" />&nbsp;
             </label>
         </li>
 
