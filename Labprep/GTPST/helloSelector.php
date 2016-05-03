@@ -11,8 +11,8 @@
 
 <h3>Where would you like to say hello? </h3>
 
-<a href="helloPrinter.php?planet=Earth"> Earth </a>
-<a href="helloPrinter.php?planet=Mars"> Mars </a>
+<a href="helloPrinter.php?planet=Earth"> Earth </a><br>
+<a href="helloPrinter.php?planet=Mars"> Mars </a><br>
 <a href="helloPrinter.php?planet=Uranus"> Uranus </a>
 
 
