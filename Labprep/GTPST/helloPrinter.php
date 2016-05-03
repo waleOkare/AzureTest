@@ -1,9 +1,9 @@
 <?php
 
 
-$earth = $_GET['Earth'];
+$Earth = $_GET['planet'];
 
-echo '<p>  Hello </p>' .$earth;
+echo '<p>  Hello </p>' .$Earth;
 
 
 ?>
