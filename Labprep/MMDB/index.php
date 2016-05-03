@@ -23,7 +23,7 @@
                 <li><a href="DisplayAllMovies.php"> All MOVIES  </a></li>
                 <li><a href="DisplayMoviesMarvelStudio.php">  MOVIES BY MARVEL STUDIOS </a></li>
                 <li><a href="DisplayAfter2010.php"> MOVIES FROM 2010 </a></li>
-                <li><a href="DisplayAllXmenFilms.php"> ALL XMEN FILMS </a></li>
+                <li><a href="DisplayAllXmenFilms.php"> ALL XMEN FILM </a></li>
 
             </ul>
         </nav>
