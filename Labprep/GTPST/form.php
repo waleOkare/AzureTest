@@ -99,12 +99,16 @@
 
 <form action="formResponse.php" method="post">
     <ul class="form-style-1">
-        <li><label>ForeName <span class="required">*</span></label>
-            <input type="text" name="forename" class="field-divided" placeholder="First" />&nbsp;
-            <input type="text" name="surname" class="field-divided" placeholder="Last" /></li>
         <li>
-            <label>Surname <span class="required">*</span>
-                <input type="email" name="field3" class="field-long" />
+            <label>ForeName <span class="required"></span>
+            <input type="text" name="forename" class="field-divided" />&nbsp;
+            </label>
+           </li>
+
+        <li>
+            <label>Surname <span class="required"></span>
+                <input type="text" name="surname" class="field-long" />
+
             </label>
         </li>
 
