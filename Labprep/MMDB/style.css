@@ -99,83 +99,25 @@ footer>p{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/**
+footer>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: greenyellow;
+    overflow: auto;
+}
+
+footer>ul li{
+    float: left;
+
+}
+footer>ul li a{
+   display:inline-block;
+
+}
+
+**/
 
 
 
