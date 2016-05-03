@@ -23,3 +23,5 @@ echo '<br>';
 
 echo'</article>';
 
+
+echo $Title;
