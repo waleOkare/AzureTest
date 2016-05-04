@@ -132,7 +132,7 @@
                         <li>
                             <label>Bug Name
 
-                                <input type="text" name="Title" class="field-long"  required />
+                                <input type="text" name="bugName" class="field-long"  required />
                                 <br>
                                 <br>
                             </label>
@@ -141,14 +141,14 @@
                         <li>
                             <label>Bug Summary
 
-                                <textarea name="Content" id="field5" class="field-long field-textarea" rows="2" cols="40" required></textarea>
+                                <textarea name="BugSummary" id="field5" class="field-long field-textarea" rows="2" cols="40" required></textarea>
 
                             </label>
                         </li>
 
                         <li>
                             <label>Bug Category
-                                <select name="Option" class="field-select" required>
+                                <select name="BugCategory" class="field-select" required>
                                     <option value=" " selected disabled>Select </option>
                                     <option value="Cat">Android</option>
                                     <option value="dog">ios</option>
