@@ -12,6 +12,15 @@ header{
      background-color: crimson;
     padding-left: 5px;
 }
+header h1{
+
+    padding-left: 5px;
+    /**  clear: both; **/
+}
+
+h1,h3{
+    color: greenyellow;
+}
 
 
 aside>nav>ul {
@@ -81,5 +90,77 @@ footer>p{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** aligning items straight on footer
+footer>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: greenyellow;
+    overflow: auto;
+}
+
+footer>ul li{
+    float: left;
+
+}
+footer>ul li a{
+   display:inline-block;
+
+}
+
+**/
+
+
+
+
+
+/**
+
+header{
+    background-color: aquamarine;
+}
+main{
+    background-color: yellow;
+}
+aside{
+    background-color: red;
+}
+section{
+    background-color: purple;
+}
+
+footer{
+    background-color: #4CAF50;
+}
+
+**/
 
 

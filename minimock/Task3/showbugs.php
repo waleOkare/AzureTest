@@ -87,6 +87,9 @@ echo ' <hr>';
 $indx++;
 }
 mysqli_free_result($bugs_SQLselect_Query);
+  $db->close();
+
+
 ?>
 
 
