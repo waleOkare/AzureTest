@@ -182,14 +182,14 @@
 
             if (mysqli_query($db, $bug_SQLinsert)) {
 
-                header("location:showbugs.phplab");
+                header("location:showbugs.php");
             } else {
                 echo "Failed to add new bug";
 
             }
         }
         else{
-            ("location:index.phplab");
+            ("location:index.php"); //not created yet
         }
 
 
