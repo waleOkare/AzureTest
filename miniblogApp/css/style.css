@@ -1,0 +1,82 @@
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cornsilk;
+
+}
+html {
+    font-family: "cursive", sans-serif;
+}
+header{
+    height: 50%;
+    background-color: crimson;
+   / padding-left: 5px;
+}
+h1{
+    font-family: 'cursive', sans-serif;
+    font-weight: 300;
+}
+
+p,h2,h3,h4,h5,a{
+    font-family: 'cursive', sans-serif;
+    font-weight: 400;
+}
+h3, h4, h5{
+    font-family: 'cursive', sans-serif;
+    font-weight: 700;
+}
+
+h1,h4{
+    color: navy;
+}
+
+#logo{
+    width: 310px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  /  background-color: #f1f1f1;
+    overflow: auto;
+}
+
+
+ul>li>a {
+    float: left;
+    width:18%
+
+}
+
+li a {
+    display: block;
+    color: orangered;
+    padding: 10px 0 8px 10px;
+    text-decoration: none;
+    background-color: navy;
+
+
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:greenyellow;
+
+}
+
+
+
+footer>p{
+    text-align: center;
+    color:navy;
+    font-family: 'cursive', sans-serif;
+    font-weight: 700;
+}
+#footer{
+    background-color: crimson;
+
+    height: 150px;
+/   clear: both;
+    /*  width: 100%; */
+}
