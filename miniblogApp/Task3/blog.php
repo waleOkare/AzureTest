@@ -97,12 +97,13 @@
     <section class='grid-10' id='listcon2'>
         Title:
         <br>
-    </section>
-    <section class='grid-90' id='listcon3'>
-    <br>
+         <br>
      <br>
     <br>
     <br>
+    </section>
+    <section class='grid-90' id='listcon3'>
+
         {$entryTitle} by {$submitter}
 
 
@@ -110,24 +111,26 @@
     <section class='grid-10' id='listcon4'>
         Category:
         <br>
+        <br>
+    <br>
+    <br>
     </section>
     <section class='grid-90' id='listcon5'>
-    <br>
-    <br>
-    <br>
+
         {$category}
 
     </section>
     <section class='grid-10' id='listcon6'>
         Summary:
         <br>
-    </section>
-
-    <section class='grid-90' id='listcon7'>
-    <br>
+         <br>
      <br>
     <br>
     <br>
+    </section>
+
+    <section class='grid-90' id='listcon7'>
+
         {$entrySummary}
 
     </section>
