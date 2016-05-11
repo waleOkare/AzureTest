@@ -5,7 +5,7 @@
     <title>Landing Page  </title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" href=../css/unsemantic-grid-responsive-tablet.css>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 
 </head>
 
