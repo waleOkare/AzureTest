@@ -88,25 +88,50 @@
                 $submitter = $row['submitter'];
 
 
-                echo " <h3> " . "[" . $entryTitle . "]" . " by " . " $submitter " . " </h3>";
+                echo "
 
-                echo '<br>';
-
-                echo $category;
-                echo '<br>';
-                echo '<br>';
-
-              //  echo $entrySummary;
+<main class='grid-container'>
 
 
-                echo ' <hr>';
+    <section class='grid-10' id='listcon2'>
+        Title:
+    </section>
+    <section class='grid-90' id='listcon3'>
+        {$entryTitle} by {$submitter}
 
 
-                $indx++;
+    </section>
+    <section class='grid-10' id='listcon4'>
+        Category:
+    </section>
+    <section class='grid-90' id='listcon5'>
+        {$category}
+
+    </section>
+    <section class='grid-10' id='listcon6'>
+        Summary:
+    </section>
+    <section class='grid-90' id='listcon7'>
+        {$entrySummary}
+
+    </section>
+    <section class='grid-100' id='listcon8'>
+
+    </section>
+    ";
+
+
+
+
+        $indx++;
             }
 
+
+
+
+
             mysqli_free_result($blogview_SQLselect_Query);
-$db->close()
+             $db->close()
 
 ?>
 
