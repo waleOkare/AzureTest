@@ -109,7 +109,7 @@
                 <li><a href="blog.php"> All Blog Items </a></li>
                 <li><a href="blog.php?category=Work"> Work   </a></li>
                 <li><a href="blog.php?category=University">  University  </a></li>
-                <li><a href="blog.php?category=family"> Family  </a></li>
+                <li><a href="blog.php?category=Family"> Family  </a></li>
                 <li><a href="add.php"> Insert a Blog Item </a></li>
 
             </ul>
@@ -152,9 +152,9 @@
                         <label> Category:
                             <select name="category" class="field-select" required>
                                 <option value=" " selected disabled>Select </option>
-                                <option value="work">work</option>
-                                <option value="university">university</option>
-                                <option value="Family">family</option>
+                                <option value="Work" name="Work">work</option>
+                                <option value="University" name="University">university</option>
+                                <option value="Family" name="Family">family</option>
                             </select>
                         </label>
                     </li>

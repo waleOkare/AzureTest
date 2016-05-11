@@ -23,7 +23,7 @@
                 <li><a href="blog.php"> All Blog Items </a></li>
                 <li><a href="blog.php?category=Work"> Work   </a></li>
                 <li><a href="blog.php?category=University">  University  </a></li>
-                <li><a href="blog.php?category=family"> Family  </a></li>
+                <li><a href="blog.php?category=Family"> Family  </a></li>
                 <li><a href="add.php"> Insert a Blog Item </a></li>
 
             </ul>
