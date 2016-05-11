@@ -21,7 +21,7 @@
 
         <form>
             Enter search terms: <input type="text" name="search">
-            <input type="search">
+            <input type="submit">
 
         </form>
 
