@@ -111,6 +111,7 @@
     <section class='grid-10' id='listcon6'>
         Summary:
     </section>
+
     <section class='grid-90' id='listcon7'>
         {$entrySummary}
 

@@ -192,7 +192,7 @@
 
 
             $blogview_SQLselect = "INSERT INTO blogview (entryTitle,entrySummary,category,submitter)
-                              VALUES ('$entryTitle', '$entrySummary', ' $category',' $submitter');";
+                              VALUES ('$entryTitle', '$entrySummary', '$category',' $submitter');";
 
 
 
