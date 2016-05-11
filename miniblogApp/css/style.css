@@ -10,7 +10,7 @@ html {
 }
 header{
     height: 50%;
-    background-color: #006666;
+    background-color: greenyellow;
    / padding-left: 5px;
 }
 h1{
@@ -61,7 +61,7 @@ li a {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: greenyellow;
+    background-color: darkgrey;
 
 }
 
@@ -74,7 +74,7 @@ footer>p{
     font-weight: 700;
 }
 #footer{
-    background-color: #006666;
+    background-color: greenyellow;
 
     height: 150px;
 /   clear: both;
