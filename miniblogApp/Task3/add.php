@@ -153,9 +153,9 @@
                         <label> Category:
                             <select name="category" class="field-select" required>
                                 <option value=" " selected disabled>Select </option>
-                                <option value="Work" >work</option>
-                                <option value="University">university</option>
-                                <option value="Family">family</option>
+                                <option value="Work" name="Work">work</option>
+                                <option value="University" name="University">university</option>
+                                <option value="Family"name="Family">family</option>
                             </select>
                         </label>
                     </li>
