@@ -81,7 +81,7 @@ footer>p{
     /*  width: 100%; */
 }
 
-#listcon1, #listcon3, #listcon5, #listcon7 ,#listcon8, #listcon10, #listcon12, #listcon14{
+#listcon1, #listcon3,#listcon4, #listcon5,#listcon6, #listcon7 ,#listcon8, #listcon10, #listcon12, #listcon14{
     border: solid 1px;
     margin-bottom: 20px;
     -moz-border-radius:5px;
@@ -90,6 +90,7 @@ footer>p{
     border-radius: 5px;
     background-color: lightgray;
     padding-left: 20px;
+    margin-left: 20px;
 }
 
 #listcon1{
