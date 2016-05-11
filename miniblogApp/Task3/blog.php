@@ -100,6 +100,9 @@
     </section>
     <section class='grid-90' id='listcon3'>
     <br>
+     <br>
+    <br>
+    <br>
         {$entryTitle} by {$submitter}
 
 
@@ -110,6 +113,8 @@
     </section>
     <section class='grid-90' id='listcon5'>
     <br>
+    <br>
+    <br>
         {$category}
 
     </section>
@@ -119,6 +124,9 @@
     </section>
 
     <section class='grid-90' id='listcon7'>
+    <br>
+     <br>
+    <br>
     <br>
         {$entrySummary}
 
