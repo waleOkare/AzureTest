@@ -31,6 +31,21 @@
             </ul>
         </nav>
 
+        <form>
+            Enter search terms: <input type="text" name="search">
+        </form>
+
+        <?php
+        if (isset($_GET['search']) && ($_GET['search'] !== '')) {
+            $search = urlencode($_GET['search']);
+            echo <<<EOL
+<a href="http://google.com/q={$search}">Click here to search for '$search'</a>
+
+EOL;
+        }
+        ?>
+
+
     </header>
 
 
