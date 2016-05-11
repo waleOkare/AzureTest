@@ -158,7 +158,7 @@
 
 
 <footer id="footer">
-    <p>Designed by Wale Patrick  2016 (c) </p>
+    <p>Designed by Wale Patrick 2016 (c) </p>
 </footer>
 
 </body>

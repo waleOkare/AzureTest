@@ -20,8 +20,8 @@ CREATE TABLE `blogview` (
 ) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8;
 
 INSERT INTO `blogview` (`blogitemID`, `entryTitle`, `entrySummary`, `category`, `submitter`) VALUES
-(1,	'Today at work',	' Today I went to work and did lots of very complicated coding things. I was very pleased that I managed to finish them all',	'Work',	'Adam'),
-(11,	'University Lecturer',	'This week in university I had an amazing lecture. I can’t remember the name of the lecturer but he was really really good.',	'University',	'Brian'),
-(21,	'Dads new television',	'Today dad bought a new television. He likes to watch the F1 on it a lot.',	'Family',	'Charlie');
+(1,	'Today at work',	' Today I went to work and did lots of very complicated coding things. ',	'Work',	'Kendrick'),
+(11,	'University Lecturer',	'This week in university I had an amazing lecture. I can’t remember the name of the lecturer but he was really really good.',	'University',	'JCole'),
+(21,	'Dads new television',	'Today dad bought a new television. He likes to watch the Epl on it a lot.',	'Family',	'Onazi');
 
 -- 2016-05-04 08:58:38
