@@ -5,6 +5,9 @@ body{
     background-color: ghostwhite;
 
 }
+*{
+    font-family: cursive;
+}
 html {
     font-family: "cursive", sans-serif;
 }
