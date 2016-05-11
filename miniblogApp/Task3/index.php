@@ -21,6 +21,8 @@
 
         <form>
             Enter search terms: <input type="text" name="search">
+            <input type="submit" value="submit">
+
         </form>
 
         <?php
