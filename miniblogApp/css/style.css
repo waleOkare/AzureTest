@@ -46,7 +46,7 @@ ul {
 
 ul>li>a {
     float: left;
-    width:18%
+    width:14%
 
 }
 
@@ -61,7 +61,7 @@ li a {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color:darkorange;
+    background-color: greenyellow;
 
 }
 
