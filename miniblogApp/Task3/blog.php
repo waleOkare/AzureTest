@@ -60,29 +60,29 @@
 
     <section class="grid-66 mobile-grid-66">
 
+
         <?php
+              include("connection.php");
 
 
-
-        if(isset($_GET['category'])){
+        if(isset($_GET['category'])) {
 
             $category = $_GET['category'];
 
-          $blogview_SQLselect = "  SELECT *
-                                   FROM blogview
-                                   WHERE category = '$category' ";
+            $sql = "  SELECT * FROM blogview WHERE category = '$category'";
+
+
 
            }else {
 
 
-            $blogview_SQLselect = "  SELECT * FROM blogview ";
+            $sql = "  SELECT * FROM blogview ";
 
         }
 
-            $blogview_SQLselect_Query = mysqli_query($db, $blogview_SQLselect);
 
-            $indx = 1;
-            while ($row = mysqli_fetch_array($blogview_SQLselect_Query, MYSQLI_ASSOC)) {
+                $result = $db->query($sql);
+            while ($row = $result->fetch_array()) {
                 $entryTitle = $row['entryTitle'];
                 $entrySummary = $row['entrySummary'];
                 $category = $row['category'];
@@ -98,9 +98,7 @@
         Title:
         <br>
          <br>
-     <br>
-    <br>
-    <br>
+
     </section>
     <section class='grid-90' id='listcon3'>
 
@@ -112,8 +110,7 @@
         Category:
         <br>
         <br>
-    <br>
-    <br>
+
     </section>
     <section class='grid-90' id='listcon5'>
 
@@ -124,9 +121,7 @@
         Summary:
         <br>
          <br>
-     <br>
-    <br>
-    <br>
+
     </section>
 
     <section class='grid-90' id='listcon7'>
