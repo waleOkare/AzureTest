@@ -5,14 +5,12 @@ body{
     background-color: ghostwhite;
 
 }
-*{
+html{
 
 
      font-family: 'Indie Flower', cursive;
 }
-html {
- /   font-family: "cursive", sans-serif;
-}
+
 header{
     height: 50%;
     background-color: greenyellow;
