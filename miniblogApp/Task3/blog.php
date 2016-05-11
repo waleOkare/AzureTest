@@ -136,15 +136,9 @@
 
 
 
-
-        $indx++;
             }
 
 
-
-
-
-            mysqli_free_result($blogview_SQLselect_Query);
              $db->close()
 
 ?>
