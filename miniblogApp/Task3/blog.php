@@ -96,7 +96,7 @@
                 echo '<br>';
                 echo '<br>';
 
-                echo $entrySummary;
+              //  echo $entrySummary;
 
 
                 echo ' <hr>';
