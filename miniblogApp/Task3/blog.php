@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" href=../css/unsemantic-grid-responsive-tablet.css>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -151,7 +152,7 @@
 
 
 <footer id="footer">
-    <p> Designed by [Wale Patrick, [2016] </p>
+    <p>Designed by Wale Patrick  2016 (c) </p>
 </footer>
 
 </body>

@@ -40,8 +40,8 @@
 
     <section class="grid-66 mobile-grid-66">
         <p>
-            This is mini-blog Application Where you can keep Logs of your thoughts
-            and what your feeling.
+            This is mini-blog Application Where you can keep Logs of what
+            you think.
 
 
 
@@ -65,7 +65,7 @@
 
 
 <footer id="footer">
-    <p> Designed by [Wale Patrick, [2016] </p>
+    <p> Designed by Wale Patrick  2016 (c) </p>
 </footer>
 
 </body>

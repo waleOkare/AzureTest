@@ -10,7 +10,7 @@ html {
 }
 header{
     height: 50%;
-    background-color: crimson;
+    background-color: mintcream;
    / padding-left: 5px;
 }
 h1{
@@ -80,3 +80,23 @@ footer>p{
 /   clear: both;
     /*  width: 100%; */
 }
+
+#listcon1, #listcon3, #listcon5, #listcon7 ,#listcon8, #listcon10, #listcon12, #listcon14{
+    border: solid 1px;
+    margin-bottom: 20px;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+#listcon1{
+
+    margin-top: 50px;
+}
+.grid-container{
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
