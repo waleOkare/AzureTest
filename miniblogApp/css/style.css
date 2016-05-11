@@ -2,7 +2,7 @@ body{
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #006666;
+    background-color: ghostwhite;
 
 }
 html {
@@ -10,7 +10,7 @@ html {
 }
 header{
     height: 50%;
-    background-color: mintcream;
+    background-color: #006666;
    / padding-left: 5px;
 }
 h1{
@@ -74,7 +74,7 @@ footer>p{
     font-weight: 700;
 }
 #footer{
-    background-color: mintcream;
+    background-color: #006666;
 
     height: 150px;
 /   clear: both;
