@@ -21,7 +21,7 @@
 
         <form>
             Enter search terms: <input type="text" name="search">
-            <input type="submit" value="submit">
+            <input type="search" value="search">
 
         </form>
 
@@ -29,7 +29,7 @@
         if (isset($_GET['search']) && ($_GET['search'] !== '')) {
             $search = urlencode($_GET['search']);
             echo <<<EOL
-<a href="http://google.com ={$search}">Click here to search for '$search'</a>
+            <a href="google.com" ={$search}">Click here to search for '$search'</a>
 
 EOL;
         }
