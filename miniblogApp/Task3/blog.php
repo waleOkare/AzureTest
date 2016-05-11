@@ -16,7 +16,7 @@
     <header class="grid-100">
 
 
-        <h1> myBlog </h1>
+        <h1> <a href="index.php">  myBlog </a> </h1>
         <h4> because the internet needs to know what i think </h4>
 
         <nav>
