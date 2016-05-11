@@ -19,22 +19,6 @@
         <h1>  myBlog  </h1>
         <h4> because the internet needs to know what i think </h4>
 
-        <form>
-            Enter search terms: <input type="text" name="search">
-            <input type="submit">
-
-        </form>
-
-        <?php
-        if (isset($_GET['search']) && ($_GET['search'] !== '')) {
-            $search = urlencode($_GET['search']);
-            echo <<<EOL
-            <a href="google.com" ={$search}">Click here to search for '$search'</a>
-
-EOL;
-        }
-        ?>
-
         <nav>
             <ul>
                 <li><a href="index.php"> Home </a></li>
