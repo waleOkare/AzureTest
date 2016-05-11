@@ -200,7 +200,7 @@
 
             if (mysqli_query($db,$blogview_SQLselect)) {
 
-                header("location:blog.php");
+               header("location:blog.php");
 
             } else {
                 echo  "Error: " . $blogview_SQLselect . "<br>" . mysqli_error($db);
