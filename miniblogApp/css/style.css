@@ -28,7 +28,7 @@ h3, h4, h5{
 }
 
 h1,h4{
-    color: snow;
+    color: darkorange;
 }
 
 #logo{
@@ -52,7 +52,7 @@ ul>li>a {
 
 li a {
     display: block;
-    color: orangered;
+    color: ghostwhite;
     padding: 10px 0 8px 10px;
     text-decoration: none;
     background-color: navy;
@@ -61,7 +61,7 @@ li a {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color:greenyellow;
+    background-color:darkorange;
 
 }
 
@@ -69,7 +69,7 @@ li a:hover, .dropdown:hover .dropbtn {
 
 footer>p{
     text-align: center;
-    color:navy;
+    color:darkorange;
     font-family: 'cursive', sans-serif;
     font-weight: 700;
 }
