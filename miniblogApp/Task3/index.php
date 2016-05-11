@@ -41,8 +41,10 @@
 
     <section class="grid-66 mobile-grid-66">
         <p>
-            This is mini-blog Application Where you can keep Logs of what
-            you think.
+            This is a mini-blog Web Application Where you can keep Logs of what
+            you think - Application Holds your record and Can check back to view
+            it Anytime.
+
 
 
 
