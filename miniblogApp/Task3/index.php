@@ -40,17 +40,8 @@
 
     <section class="grid-66 mobile-grid-66">
         <p>
-            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwro
-            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwo
-            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwro
-            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwo
-            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwro
-            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwo
-            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwro
-            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwo
-            lorem ipsum dolor sit r3gfiuywbgurwhguiowhg uwor ruoewhguorwehgruwohgrwuo erwuoghuroghouwrighrw urhguwro
-            gfiuwrhguwreghwuoerhg wuirhgwoiurghwoirghwoiughwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwo
-            hwriughw wiuhgowiurhgwroighwiorghwirg wohgowriughw4riughwoig
+            This is mini-blog Application Where you can keep Logs of your thoughts
+            and what your feeling.
 
 
 
