@@ -28,6 +28,7 @@
 
             </ul>
         </nav>
+
         <?
         $category = $_GET['category'];
 
