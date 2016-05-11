@@ -16,11 +16,12 @@
     <header class="grid-100">
 
 
-        <h1> <a href="index.php">  myBlog </a> </h1>
+        <h1>  myBlog  </h1>
         <h4> because the internet needs to know what i think </h4>
 
         <nav>
             <ul>
+                <li><a href="index.php"> Home </a></li>
                 <li><a href="blog.php"> All Blog Items </a></li>
                 <li><a href="blog.php?category=Work"> Work   </a></li>
                 <li><a href="blog.php?category=University">  University  </a></li>
@@ -37,7 +38,7 @@
 
             $category = $_GET['category'];
 
-            echo "<h4 align='center'>  LOGS FROM THE <Strong style='color: chartreuse'>  $category </Strong> CATEGORY </h4>";
+            echo "<h4 align='center'>  LOGS FROM THE <Strong style='color: darkorange'>  $category </Strong> CATEGORY </h4>";
 
 
         }else{
