@@ -96,6 +96,7 @@
 
     <section class='grid-10' id='listcon2'>
         Title:
+        <br>
     </section>
     <section class='grid-90' id='listcon3'>
         {$entryTitle} by {$submitter}
@@ -104,6 +105,7 @@
     </section>
     <section class='grid-10' id='listcon4'>
         Category:
+        <br>
     </section>
     <section class='grid-90' id='listcon5'>
         {$category}
@@ -111,6 +113,7 @@
     </section>
     <section class='grid-10' id='listcon6'>
         Summary:
+        <br>
     </section>
 
     <section class='grid-90' id='listcon7'>
