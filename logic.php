@@ -23,7 +23,7 @@ if(isset($_POST['name'],$_POST['email'],$_POST['message'])){
         $m->Username='waleokare@gmail.com';//replace by your email address
         $m->Password='oluwafisayo';//replace with your password
         $m->SMTPSecure='tls';
-        $m->Port=465;
+        $m->Port=587;
 
         $m->isHTML();
         $m->Subject ='Contact form Submitted';
