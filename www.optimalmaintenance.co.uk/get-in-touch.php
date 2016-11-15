@@ -90,7 +90,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <nav class="nav">
           <ul class="sf-menu">
             <li>
-              <a href="">Home</a>
+              <a href="index.html">Home</a>
             </li>
             <li>
               <a href="about-us.html">About Us</a>
