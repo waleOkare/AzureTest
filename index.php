@@ -23,7 +23,7 @@ $fields=isset($_SESSION['fields'])?$_SESSION['fields']:[];
                     </div>
                 <?php endif; ?>
             </div>
-            <h3>Contact Form</h3>
+            <h3>Contact Form test </h3>
 
             <form action="logic.php" method="post">
                 <div class="form-group">
