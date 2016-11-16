@@ -20,7 +20,7 @@ if(isset($_POST['name'],$_POST['email'],$_POST['message'])){
         $m=new PHPMailer;
         $m->isSMTP();
         $m->SMTPAuth=true;
-        $m->Host='smtp.gmail.com';
+        $m->Host='smtp.mail.yahoo.com';
         $m->Username='waleokare@yahoo.com';//replace by your email address
         $m->Password='oluwafisayo1';//replace with your password
         $m->SMTPSecure='ssl';
