@@ -16,21 +16,22 @@ if(isset($_POST['name'],$_POST['email'],$_POST['message'])){
         }
     }
     if(empty($errors)){
+        require_once ("libs/class.phpmailer.php");
         $m=new PHPMailer;
         $m->isSMTP();
         $m->SMTPAuth=true;
         $m->Host='smtp.gmail.com';
-        $m->Username='waleokare@gmail.com';//replace by your email address
-        $m->Password='oluwafisayo';//replace with your password
-        $m->SMTPSecure='tls';
-        $m->Port=587;
+        $m->Username='waleokare@yahoo.com';//replace by your email address
+        $m->Password='oluwafisayo1';//replace with your password
+        $m->SMTPSecure='ssl';
+        $m->Port=25;
 
-        $m->isHTML();
+        $m->isHTML(true);
         $m->Subject ='Contact form Submitted';
         $m->Body='From:'.$fields['name'].'('.$fields['email'].')<p>'.$fields['message'].'</p>';
 
         $m->FromName='Contact';
-        $m->AddAddress('waleokare@gmail.com','Wale Patrick');
+        $m->AddAddress('waleokare@yahoo.com','Wale okare');
         if ($m->send()) {
             header('Location:success.php');
             die();
